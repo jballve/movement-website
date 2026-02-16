@@ -1,0 +1,18 @@
+To add the real images to your website, follow these simple steps:
+
+1.  **Prepare your image files:**
+    *   **Team Photos:** Rename your team member photos to match these names:
+        *   `partner-1.png` (for Javier Ballve)
+        *   `partner-2.png` (for Gregory Gruschka)
+        *   `partner-3.png` (for Jerry Tan)
+        *   `partner-4.png` (for Yash Khurana)
+        *   *(These should be PNG files)*
+
+2.  **Upload the files:**
+    *   Go to your project folder.
+    *   Navigate to `public/images/team/` and place your team photos there.
+
+3.  **Portfolio Section:**
+    *   The portfolio section has been temporarily hidden from the website as requested. You don't need to upload any portfolio logos for now.
+
+That's it! The website code is already set up to look for these exact filenames, so once you drop them into the folder, they will automatically appear on the site.

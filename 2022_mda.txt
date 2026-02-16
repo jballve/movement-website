@@ -1,0 +1,1150 @@
+COLABOR GROUP INC. MANAGEMENT'S DISCUSSION & ANALYSIS ("MD&A")
+For the fiscal year and the fourth quarter ended December 31, 2022
+As at March 1st, 2023
+
+TABLE OF CONTENTS
+1. Scope of the MD&A and Notice to Investors .................................................................................................................. 3 2. About Colabor.................................................................................................................................................................. 4
+2.1 Corporate Profile ................................................................................................................................................... 4 2.2 Business Developments in 2022............................................................................................................................ 5 2.3 Development Strategies and Outlook .................................................................................................................... 6 2.4 Key Financial Performance Indicators .................................................................................................................. 7 2.5 Highlights of the Last Three Periods ..................................................................................................................... 8 3. Operational and Financial Results.................................................................................................................................... 9 3.1 Operating Results................................................................................................................................................... 9
+3.1.1 Segment Sales .......................................................................................................................................... 9 3.1.2 Operating Expenses.................................................................................................................................. 10 3.1.3 Adjusted EBITDA.................................................................................................................................... 11 3.1.4 Costs (Income) not Related to Current Operations .................................................................................. 12 3.1.5 Depreciation and Amortization ................................................................................................................ 13 3.1.6 Financial Expenses................................................................................................................................... 13 3.1.7 Income Taxes ........................................................................................................................................... 13 3.1.8 Net Earnings............................................................................................................................................. 14 3.2 Financial Position .................................................................................................................................................. 15 3.3 Other Significant Changes in Financial Position................................................................................................... 16 3.4 Data Related to Outstanding Shares ...................................................................................................................... 17 3.5 Cash Flows............................................................................................................................................................. 17 3.6 Capital Resources .................................................................................................................................................. 19 4. Business Combination and Assets Acquisition................................................................................................................ 19 5. Summary of Recent Quarters ........................................................................................................................................... 21 6. Non-IFRS Performance Measures ................................................................................................................................... 21 7. Related Party Transactions............................................................................................................................................... 23 8. Off-Balance Sheet Transactions....................................................................................................................................... 23 9. Risks and Uncertainties.................................................................................................................................................... 23 10. Significant Estimates and Judgments............................................................................................................................... 23 11. Internal Controls Over Financial Reporting..................................................................................................................... 25 12. New Accounting Policies ................................................................................................................................................. 25 13. Financial Instruments ....................................................................................................................................................... 26
+
+1. Scope of the MD&A and Notice to Investors
+This Management's Discussion & Analysis ("MD&A") of Colabor Group Inc. and its subsidiaries (the "Company" or "Colabor") discusses the Company's net earnings, comprehensive income, financial situation and cash flows for the fourth quarter and for the fiscal year ended December 31, 2022. The fourth quarter numbers were unaudited while numbers presented for the fiscal year are audited. This report should be read in conjunction with the audited consolidated financial statements and accompanying notes for the fiscal year ended December 31, 2022. These financial statements are in Canadian dollars and have been prepared in accordance with International Financial Reporting Standards ("IFRS") as published by the International Accounting Standard Board ("IASB"). The financial statements have been published on the following sites: www.sedar.com and www.colabor.com.
+Forward-Looking Statements
+This MD&A contains certain forward-looking statements as defined under applicable securities law. Forward-looking information may relate to Colabor's future outlook and anticipated events, business, operations, financial performance, financial condition or results and, in some cases, can be identified by terminology such as "may"; "will"; "should"; "expect"; "plan"; "anticipate"; "believe"; "intend"; "estimate"; "predict"; "potential"; "continue"; "foresee"; "ensure" or other similar expressions concerning matters that are not historical facts. Particularly, statements regarding the Company's financial guidelines, future operating results and economic performance, objectives and strategies are forward-looking statements. These statements are based on certain factors and assumptions including expected growth, results of operations, performance and business prospects and opportunities, which Colabor believes are reasonable as of the current date. Refer in particular to section 2.3 "Development Strategies and Outlook" of this MD&A. While Management considers these assumptions to be reasonable based on information currently available to the Company, they may prove to be incorrect. Forward-looking information is also subject to certain factors, including risks and uncertainties that could cause actual results to differ materially from what Colabor currently expects. For more exhaustive information on these risks and uncertainties, the reader should refer to section 9 "Risks and Uncertainties" of this MD&A. These factors, which include the risks related to the pandemic of Covid-19 and the different underlying variants ("pandemic") as well as the possible impacts on consumers and the economy, are not intended to represent a complete list of the factors that could affect Colabor and future events and results may vary significantly from what Management currently foresees. The reader should not place undue importance on forward-looking information contained in this MD&A, information representing Colabor's expectations as of the date of this MD&A (or as of the date they are otherwise stated to be made) and are subject to change after such date. While Management may elect to do so, the Company is under no obligation (and expressly disclaims any such obligation) and does not undertake to update or alter this information at any particular time, whether as a result of new information, future events or otherwise, except as required by law.
+Seasonality
+Colabor's fiscal year is comprised of thirteen periods of four weeks each. The first three quarters are comprised of three periods each and the fourth quarter includes four periods. The Company's year-end is the last Saturday of December. The quarters and fiscal year ended December 31, 2022 and December 25, 2021 had respectively 17 and 16 weeks for the quarter and 53 and 52 weeks for the fiscal year.
+As such result, the Company's sales and net earnings are proportionally less significant for the first, second and third quarters and more significant for the fourth quarter since the latter generally has 33% more days of operation in comparison with the other quarters of the period. Additionally, the Company's sales are seasonal, therefore generally lower sales volume is recorded during the first quarter in comparison with the other quarters. See section 2.2 "Business Developments in 2022" for the impacts related to the pandemic.
+Additionally, working capital generally fluctuates throughout the fiscal year due to the seasonal nature of operations, especially during Spring and Summer, and during the Holiday Season (i.e. Christmas and Easter). In order to meet higher seasonal demand, inventory requirements increase as well as trade and other receivables. The credit facility is used when needed to support this seasonal activity.
+3
+
+The shares of Colabor Group Inc. are traded on the Toronto Stock Exchange under the symbol GCL. Additional information concerning the Company may be found on SEDAR at www.sedar.com and on Colabor's website at www.colabor.com. The information contained on the Company's website is not included by reference in this MD&A.
+2. About Colabor
+2.1 Corporate Profile
+Activities Founded in 1962, Colabor distributes and markets food and food-related products in eastern Canada, specifically hotels, restaurants, institutions ("HRI") and retail markets. Colabor currently carries out its activities in two segments, Distribution and Wholesale. A. Distribution Segment Colabor's distribution activities consists of distribution of food products and related products in the HRI and retail markets. In this segment, the Company distributes both specialty products such as meat, fish and seafood ("Specialty Distribution"), as well as generalized food and related products ("Broadline Distribution"). These different types of products are grouped under the same segment because of their similar nature, type of clients and distribution methods. i. Broadline Distribution Quebec Distribution activities in Quebec are done through Colabor Food Distributor ("CFD"). CFD is a major distributor to foodservice and retail customers in the vast majority of Quebec regions, and to a lesser extent in New Brunswick. CFD distributes nearly 10,000 products from its two strategically located warehouses in Lévis and Rimouski. CFD's almost 5,000 customers consist primarily of restaurants, foodservice operators, specialty food stores and institutional accounts such as healthcare institutions, schools and universities, and certain other retail customers. CFD has a complete product offering, including frozen products, dry staples, dairy products, meat, fish and seafood, fruits and vegetables, disposables and sanitation products. It therefore offers its customers a "one-stop-shop" solution. CFD holds the Safe Quality Food ("SQF") certification, a leading global food safety standard specific to the warehousing and distribution sector in order to confirm to customers that our products are handled and distributed according to the most stringent worldwide standards. This SQF standard includes the Hazard Analysis Critical Control Point ("HACCP") system, to which management tools have been added to ensure its maintenance and continuous improvement. CFD thus demonstrate to its current and future customers its willingness to offer a range of services in accordance with the highest food safety standards and quality. ii. Speciality Distribution Les Pêcheries Norref Québec Inc. ("Norref") Norref is a specialized fresh fish and seafood products importer and distributor in the province of Quebec and is recognized as the leading distributor of this type in the province. Norref operates from a distribution center in Montreal and is HACCP-certified and federally approved, which allows it to sell its products nationwide. Norref distributes a full range of fresh and frozen fish and seafood. It has a diversified client base comprised of supermarkets, restaurants, hotels and fish stores.
+4
+
+Lauzon Meats ("Lauzon") Lauzon prepares and processes superior quality meat products for the provinces of Quebec and Ontario and is a major distributor of highly recognized brands such as Boeuf Québec, Excel Premium Beef as well as its private brand Signature. Lauzon is known, among other things, for its products, expertise and for providing effective and flexible service to the HRI sector, as well as retail and industrial sector. Lauzon operates out of a plant located in Montreal that is HACCP-certified and federally approved, which allows it to sell its products nationwide.
+B. Wholesale Segment
+The Wholesale segment's operations include the sale of general food related products to distributors from its distribution center in Boucherville. Wholesale segment sales consist of food and non-food products, supplied to distributors who then redistribute the products to over 25,000 customers operating in food service and retail industries in the province of Quebec and in the Atlantic provinces.
+C. Durability
+Colabor wants to stand out for its offer of local high quality products that support a sustainable agricultural and fisheries ecosystem. To this end, the Company distributes products that have obtained recognized certifications highlighting their origin, quality, traceability and other sustainability principles. Colabor offers Boeuf Québec certified meat and seafoods certified SeaChoice, Certified Sustainable Seafood from the Marine Stewardship Council (MSC), Farmed Responsibly ASC Certified from the Aquaculture Stewardship Council (ASC) and Ocean Wise. In 2021, the Company also signed an agreement to distribute local agricultural products with Mathurin, a digital marketplace offering a wide selection of fresh and quality products produced by nearly 600 Quebec farms and processors. Most recently, in the first quarter of fiscal 2023, Colabor's Norref division received the "Blue Fork" certification. This certification allows the company to meet the Government of Quebec's Biofood Policy requirements and to actively contribute to Quebec's food autonomy by increasing its offer of local marine products to the HRI sector.
+2.2 Business Developments in 2022
+During the fiscal year ended December 31, 2022, the following events have influenced the Company's general development and operations, or reflect the evolution of Colabor's transformational plan and growth.
+Update on the impact of the Covid-19 pandemic and economic uncertainties on activities and results
+During the fiscal year 2022, the effects of the pandemic continued to affect the markets in which the Company and its suppliers operate and to impact customer demand. A reopening of restaurant dining rooms took place in early February and the lifting of almost all restrictions imposed by governments. The pandemic and other factors, such as the war in Ukraine, have created longer-term consequences for the global economy and supply chains. It is therefore prudent to expect that disruptions could still persist in the coming quarters, particularly in the restaurant industry.
+Facing the ongoing and uncertain economic and trade impacts, it is impossible for management to reliably estimate the extent and impact of these developments on its future financial results. Although the repercussions of the pandemic may continue to impact sales and adjusted EBITDA(1) in the coming months, Colabor does not expect a material adverse impact on its available cash. The diversification of the Company's activities, combined with the cash flow generated by operating activities, will allow Colabor to pursue its strategic plan. Our teams continue to be proactive in seizing opportunities that may arise.
+Changes to the Board of Directors
+On March 31, 2022, the Company announced that Mr. Robert Briscoe has tendered his resignation as director of the Company on March 30, 2022.
+On June 14, 2022, the Company announced the nomination of Mr. Marc Beauchamp as director of the Company.
+(1) EBITDA and Adjusted EBITDA are non-IFRS measures. Refer to Section 6 Non-IFRS performance measures for definitions and reconciliations to the most directly comparable IFRS measures.
+5
+
+Business and assets acquisitions On April 4, 2022, the Company announced the acquisition of all the shares of Le Groupe Resto-Achats Inc. and its subsidiaries ("GRA"). Refer to section 4 "Business Combination and Assets Acquisition" for further details.
+On April 22, 2022, the Company completed the acquisition of certain assets from Ben Deshaies Inc. in the Outaouais and Laurentians regions ("the Assets acquisition"). Refer to section 4 "Business Combination and Assets Acquisition" for further details.
+Announcement of the relocation of the head office On September 29, 2022, the Company announced the relocation of its head office and warehouse located in Boucherville towards the end of 2023 and the conclusion of a lease for a period of 20 years and 6 months, expiring on September 30, 2044. The new industrial premises will be more modern, better located and adapted for distribution operations, and will offer a stimulating work environment, ideal for the well-being of employees.
+2.3 Development Strategies and Outlook
+Colabor has as main financial objectives to increase profitability and consequently create value for its shareholders. In 2022, to achieve its objectives, the strategic plan is defined and based on the following pillars:
+1. Optimize profitability · Reposition and promote its private brands; · Increase specialized food distribution (meat and fish); and · Improve category management.
+2. Develop new distribution territories in Quebec · Continue development in western Quebec; and · Seize acquisition opportunities.
+3. Continue to improve our operational efficiency · Investment and modernization of certain distribution/division centers; and · Finalize the integration and centralization of certain functions.
+4. Attract and retain talent · Improve employee engagement; and · Develop the employer brand.
+Evolution of the 2022 Plan
+During the fiscal year 2022, in order to develop new distribution territories in Quebec, we continued to invest in our sales force in order to break into certain regions of Quebec, which until then were relatively underdeveloped by the Company. We also closed two acquisitions on April 4 and 22, 2022 which are perfectly in line with our growth plan, as mentioned previously, and will help us to improve the depth of our offering and gain market shares in existing and new territories.
+Investments to improve our private label positioning continue during the fiscal year 2022, following the official launch in September 2021 of our new private label image, which was an important step in its repositioning.
+The Company continued its investments in the development of its employer brand to attract talents. The renewal of important collective agreements in recent months also contributes to the alignment of our compensation practices with the industry and improves our competitiveness as an employer in order to retain and attract the best talent. The Company also continued to manage the impacts of the pandemic on its operations by maintaining an appropriate cost structure and optimal cash flow management.
+6
+
+Plan for 2023
+In 2023, the strategic plan to achieve its objectives is defined in the continuity of 2022 and is based on the following pillars:
+1. Develop new distribution territories in Quebec · Continue development in western Quebec; and · Seize acquisition opportunities.
+2. Optimize profitability and efficiencies · Continue the development of its private brands; · Increase specialized distribution (meat and fish); and · Investment and modernization of certain distribution/division centers.
+3. Attract, retain and develop talent · Improve employee engagement; · Launch of the employer brand; and · Prioritize efficient communication within the organization.
+4. Renew and refresh our image · Continue to expand local offerings; · Investment in our branding; and · Setting objectives in terms of environment, social and governance ("ESG").
+
+2.4 Key Financial Performance Indicators
+
+Performance Indicators (in thousands of dollars, except financial leverage ratio)
+Results and cash flow Sales from continuing operations Net earnings from continuing operations Adjusted EBITDA(1) Cash flows from operating activities
+
+53 weeks 2022 $
+574,071 4,551 29,068 19,299
+
+52 weeks 2021 $
+477,004 8,253 25,420 18,752
+
+Financial position
+
+As at
+
+As at
+
+December 31, December 25,
+
+2022
+
+2021
+
+Working Capital(2) Financial Leverage Ratio(3) Net debt(4)
+
+$ 48,800
+1.6x 47,764
+
+$ 40,770
+1.9x 48,366
+
+(1) Non-IFRS measure. Refer to the table Reconciliation of Net Earnings to adjusted EBITDA in section 6 "Non-IFRS Performance Measures". Adjusted EBITDA corresponds to net operating earnings before costs (income) not related to current operations, depreciation and amortization and expenses for stockbased compensation plan.
+(2) Working capital is a non-IFRS performance measure. Working capital is a non-IFRS performance measure. Working capital is an indicator of the Company's ability to hedge its current liabilities with its current assets. Refer to section 3.2 "Financial Position" for detailed calculation. (3) Financial leverage ratio is an indicator of the Company's ability to service its long-term debt. It is defined as net debt / adjusted EBITDA for the last four quarters. Refer to section 6 "Non-IFRS Performance Measures". (4) Non-IFRS measure. Refer to section 6 "Non-IFRS Performance Measures". Net debt corresponds to bank indebtedness, current portion of long-term debt and long-term debt, net of cash.
+
+7
+
+Fiscal 2022 Highlights
+· Consolidated sales were $574.1 million, up 20.3% compared to fiscal year 2021 resulting mainly from the impact of inflation, an increase in volume given, among other things, the less restrictive confinement measures in 2022 compared to 2021, the Assets acquisition and the acquisition of GRA with sales of $14.0 million, as well as the impact of the additional week in fiscal year 2022.
+· Net earnings from continuing operations were $4.6 million, a decrease of $3.7 million compared to a net earnings of $8.3 million for 2021, resulting mainly from the non-recurring gain of $3.8 million not related to current operations in the prior year and the increase in depreciation and amortization expenses, mitigated by the increase in adjusted EBITDA(1) and the decrease of financial expenses.
+· Adjusted EBITDA(1) from continuing operations amounted $29.1 million or 5.1% of sales from continuing operations
+compared to $25.4 million or 5.3% of sales from continuing operations in 2021, an increase of 14.4%. This increase is mainly due to the increase in sales and an improvement in gross margin from a better mix of products and customers, mitigated among other things by lower subsidies obtained of $2.5 million, an increase in labor costs and other supply chain costs, in connection with the increase in inflation, as well as investments to expand our territory.
+· Net debt(4) decreased to $47.8 million as at December 31, 2022, compared to $48.4 million at the end of fiscal year
+2021, resulting from credit facility repayments. Despite the completion of two acquisitions in 2022, the financial leverage ratio(3) stands at 1.6x compared to 1.9x in 2021.
+· As at December 31, 2022, the Company's working capital(2) was $48.8 million, up from $40.8 million at the end of
+fiscal year 2021. This variation is explained by the increase in sales during the fourth quarter of 2022 compared to the corresponding quarter of 2021.
+
+2.5 Highlights of the three Last Fiscal Years
+
+Financial Highlights (in thousands of dollars, except per share data and percentages)
+
+53 weeks 2022
+
+52 weeks 2021
+
+2020
+
+Sales from continuing operations
+Net earnings from continuing operations Net loss from discontinued operations Adjusted EBITDA(1) Adjusted EBITDA margin(1) Basic and diluted net earnings per share from continuing operations Basic and diluted net loss per share from discontinued operations Total assets Long-term financial liabilities(2)
+
+$ 574,071
+4,551 (486) 29,068 5.1% 0.04 -- 240,691 43,375
+
+$ 477,004
+8,253 (411) 25,420 5.3% 0.08
+-- 229,434 46,989
+
+$ 461,319
+3,798 (12,410)
+28,913 6.3% 0.04 (0.12)
+234,000 11,860
+
+(1) Adjusted EBITDA and adjusted EBITDA margin are non-IFRS measures. Refer to section 6 "Non-IFRS Performance Measures". Adjusted EBITDA margin is calculated this way: Adjusted EBITDA divided by sales for the corresponding period.
+(2) Long-term financial liabilities include long-term debt.
+
+The increase in sales from continuing operations of fiscal year 2021 compared to fiscal year 2020 resulting mainly from a volume increase from restaurants, mitigated by the end of a contract from specialized Distribution.
+
+8
+
+The increase in net earnings from continuing operations for the fiscal year 2021 compared to 2020 is mainly due to the increase in income not related to current operations, the decrease of depreciation and amortization expenses and financial expenses, mitigated by the decrease of the adjusted EBITDA(1). The variation in costs (income) not related to current operations is explained by the partial reimbursement of a penalty paid in 2017 to the Ontario Ministry of Finance.
+The decrease in adjusted EBITDA(1) and adjusted EBITDA margin(1) for fiscal year 2021 compared to 2020 is mainly explained by the decrease in subsidies obtained of $4.3 million, to additional labor costs in the current context of labor shortage and the renewal of a collective agreement, as well as investments to expand our territory and the repositioning of our private brand, mitigated by increased sales and improved gross margin. Excluding the impact of the subsidies obtained, the adjusted EBITDA margin(1) would have been 4.8% in 2021 and 4.7% in 2020.
+The increase in long-term liabilities as at December 25, 2021 compared to the previous fiscal year is explained by the shortterm classification of the convertible debentures in 2020 and which, following their redemption in 2021, were replaced by longterm debt.
+3. Operational and Financial Results
+
+3.1 Operating Results
+
+Summary of Operating Results for the fourth quarter and fiscal year 2021
+
+(in thousands of dollars, except percentages)
+
+17 weeks
+2022 $
+
+16 weeks
+2021 $
+
+Variance %
+
+53 weeks 52 weeks
+
+2022
+
+2021 Variance
+
+$
+
+$
+
+%
+
+Sales
+Cost of goods sold Operating expenses(2)
+Operating expenses Adjusted EBITDA(1) Adjusted EBITDA margin(1)
+
+193,246 151,014
+
+28.0 574,071 477,004
+
+20.3
+
+157,959 125,799
+
+25.6 470,559 396,933
+
+18.5
+
+25,432 18,135
+
+40.2
+
+74,444 54,651
+
+36.2
+
+183,391 143,934
+
+27.4 545,003 451,584
+
+20.7
+
+9,855
+
+7,080
+
+39.2
+
+29,068 25,420
+
+14.4
+
+5.1%
+
+4.7%
+
+5.1%
+
+5.3%
+
+(1) The adjusted EBITDA and the adjusted EBITDA margin are non-IFRS measures. Refer to section 6 "Non-IFRS Performance Measures". The adjusted EBITDA margin is calculated as adjusted EBITDA divided by sales for the corresponding period. (2) The operating expenses are adjusted to exclude the expenses related to stock-based compensation plans.
+
+3.1.1 Segment Sales
+
+Consolidated Sales for the fourth quarter and fiscal year 2021 (in thousands of dollars, except percentages)
+
+17 weeks 2022 $
+
+16 weeks 2021 $
+
+Variance %
+
+Distribution Segment Wholesale Segment Intersegment eliminations and others Sales
+
+132,799 103,046
+
+28.9
+
+73,142 62,628
+
+16.8
+
+(12,695) (14,660)
+
+13.4
+
+193,246 151,014
+
+28.0
+
+53 weeks 2022 $
+
+52 weeks 2021 $
+
+Variance %
+
+393,446 225,565 (44,940) 574,071
+
+323,870 197,297 (44,163) 477,004
+
+21.5 14.3 (1.8) 20.3
+
+9
+
+Consolidated sales for the fourth quarter of 2022 were $193.2 million compared to $151.0 million during the corresponding quarter of last fiscal year, representing an increase of 28.0%.
+· Distribution segment sales have increased by 28.9%, explained by a volume increase, the additional week in the fourth quarter of 2022, the impact of inflation and the Assets acquisition.
+· Wholesale segment sales have increased by 16.8%, explained by the impact of inflation and the additional week in the fourth quarter of 2022.
+· Intersegment eliminations and others decreased by 13.4% resulting mainly by GRA sales, mitigated by the increase of volume from the Distribution and Wholesale segments as explained above.
+Consolidated sales for the fiscal year 2022 were $574.1 million compared to $477.0 million during last fiscal year, representing an increase of 20.3%. The closure of restaurant dining rooms impacted 4 weeks in 2022 compared to about 24 weeks in 2021.
+· Distribution segment sales have increased by 21.5%, explained by volume increase, including from our restaurant clientele given, among other things, the less restrictive confinement measures during the fiscal year 2022 compared to 2021, as explained above, the impact of inflation, the Assets acquisition, and the impact of the additional week in fiscal year 2022.
+· Wholesale segment sales have increased by 14.3%, resulting by the impact of inflation, the additional week in fiscal year 2022 and volume increase, mitigated by the partial loss of volume from a single customer and a week-long strike at our Boucherville distribution center.
+· Intersegment eliminations and others have increased by 1.8%, mainly explained by the increase in purchases in the Distribution and Wholesale segments as described above, mitigated by GRA sales.
+
+3.1.2 Operating Expenses
+
+Operating Expenses for the fourth quarter and fiscal year 2021 (in thousands of dollars, except percentages)
+
+17 weeks
+2022 $
+
+16 weeks
+2021 $
+
+Variance %
+
+53 weeks
+2022 $
+
+52 weeks
+2021 $
+
+Variance %
+
+Distribution segment Wholesale segment Intersegment eliminations and others Operating expenses(1)
+
+126,952 99,093
+
+28.1 374,971 308,438
+
+21.6
+
+67,062 57,253
+
+17.1 207,389 179,972
+
+15.2
+
+(10,623) (12,412)
+
+(14.4) (37,357) (36,826)
+
+1.4
+
+183,391 143,934
+
+27.4 545,003 451,584
+
+20.7
+
+(1) Operating expenses excluding costs (income) not related to current operations, depreciation and amortization and expenses for stock-based compensation plan.
+
+Consolidated operating expenses for the fourth quarter of 2022 were $183.4 million compared to $143.9 million for the corresponding period of last fiscal year, an increase of 27.4%, mostly explained by the increase of 28.0% in sales.
+
+· Distribution segment operating expenses have increased by 28.1% during the fourth quarter, mostly explained by the increase of 28.9% in sales, an increase in labor costs and other supply chain costs, in connection with the increase in inflation and investments to expand our territory, mitigated by an improvement in gross margin.
+
+· Wholesale segment operating expenses have increased by 17.1%, explained by the increase of 16.8% in sales during the fourth quarter of 2022, investments in the repositioning of our private brand and an increase in labor costs.
+
+10
+
+· Intersegment eliminations and others have decreased by 14.4%, mainly due to charges related to GRA, net of an increase in intersegment sales as explained above during the fourth quarter of 2022.
+Consolidated operating expenses for the fiscal year 2022 were $545.0 million compared to $451.6 million during the previous fiscal year, an increase of 20.7%, mostly explained by sales increase of 20.3% and by the reduction of $2.6 million in subsidies obtained.
+· Distribution segment operating expenses have increased by 21.6%, mostly explained by higher cost of goods sold and operating expenses due to sales increase of 21.5%, lower subsidies obtained of $2.0 million during the fiscal year 2022, increase in labor costs and other supply chain costs in connection with the increase in inflation and investments to expand our territory, mitigated by an improvement in gross margin.
+· Wholesale segment operating expenses have increased by 15.2%, explained by higher cost of goods sold due to sales increase of 14.3%, an increase in investments for the repositioning of our private brand, as well as a decrease of $0.3 million in subsidies obtained during the fiscal year 2022, and increase in labor costs.
+· Intersegment eliminations and others have increased by 1.4%, mainly due to an increase in intersegment sales as explained above, net of a reduction of $0.3 million in subsidies obtained during the fiscal year 2022 and charges related to GRA.
+
+3.1.3 Adjusted EBITDA
+
+Adjusted EBITDA for the fourth quarter and fiscal year 2021 (in thousands of dollars, except percentages)
+
+17 weeks
+2022 $
+
+16 weeks
+2021 $
+
+Variance %
+
+53 weeks
+2022 $
+
+52 weeks
+2021 $
+
+Variance %
+
+Distribution Segment Wholesale Segment Intersegment eliminations and others Adjusted EBITDA(1) Adjusted EBITDA margin(1)
+
+5,847 6,080 (2,072) 9,855 5.1%
+
+3,953 5,375 (2,248) 7,080 4.7%
+
+47.9
+
+18,475 15,432
+
+13.1
+
+18,176 17,325
+
+7.8
+
+(7,583) (7,337)
+
+39.2
+
+29,068 25,420
+
+5.1%
+
+5.3%
+
+19.7 4.9 (3.4) 14.4
+
+(1) The adjusted EBITDA and the adjusted EBITDA margin are non-IFRS measures. Refer to section 6 "Non-IFRS Performance Measures". The adjusted EBITDA margin is calculated as adjusted EBITDA divided by sales for the corresponding period.
+
+Adjusted EBITDA(1) for the fourth quarter of 2022 amounted to $9.9 million compared to $7.1 million in the corresponding quarter of the previous year, an increase of 39.2% and as a percentage of sales, adjusted EBITDA margin(1) reached 5.1% compared to 4.7% for the corresponding period of 2021. These variations are mainly explained by the sales increase:
+
+· Adjusted EBITDA(1) in the Distribution segment has increased by $1.9 million or 47.9%. As a percentage of sales, the adjusted EBITDA margin(1) stood at 4.4% compared to 3.8% in 2021. This increase is mainly due to the increase in
+sales of 28.9% as explained above and improvement of gross margin, mitigated by increase in labor costs and other
+supply chain costs and investments to expand our territory.
+
+· Adjusted EBITDA(1) in the Wholesale segment has increased by $0.7 million, or 13.1% and is mainly due to an increase of 16.8% of sales as explained above, mitigated by an increase in investments for the repositioning of our private brand and the increase in labor costs.
+
+· Adjusted EBITDA(1) from intersegment eliminations and others in the fourth quarter of 2022 decreased by $0.2 million or 7.8% compared to the corresponding quarter of 2021 and is mainly due to the acquisition of GRA, mitigated by sales growth.
+
+11
+
+Adjusted EBITDA(1) for the fiscal year 2022 reached $29.1 million compared to $25.4 million during the previous year, an increase of 14.4% and as a percentage of sales, adjusted EBITDA margin(1) reached 5.1% compared to 5.3% for the corresponding period of 2021. These variations are mainly due to an increase in sales and gross margin from a better mix of products and customers, mitigated by a decrease in subsidies obtained of $2.6 million. Excluding the impact of subsidies obtained, the adjusted EBITDA margin(1) would have been 5.1% in 2022 and 4.8% in 2021 :
+· Adjusted EBITDA(1) in the Distribution segment has increased by $3.0 million or 19.7%. As a percentage of sales, the adjusted EBITDA(1) margin was 4.7%, compared to 4.8% in 2021. The variation is explained by an increase in sales and an improvement of gross margin, mitigated by a decrease in subsidies obtained of $2.0 million, the increase in labor costs and other supply chain costs and investments to expand our territory, as explained above.
+· Adjusted EBITDA(1) in the Wholesale segment has increased by $0.9 million, or 4.9% and is mainly due to a sales
+growth, mitigated by a decrease in subsidies obtained during the fiscal year 2022, investments for the repositioning of
+our private brand and an increase in labor costs.
+· Adjusted EBITDA(1) from intersegment eliminations and others in the fiscal year 2022 increased by $0.2 million or 3.4% compared to the corresponding period of 2021 and is mainly due to increase in sales, mitigated by a decrease in subsidies obtained and the acquisition of GRA.
+
+3.1.4 Costs (Income) not Related to Current Operations
+
+Costs (Income) not Related to Current Operations for the fourth quarter and fiscal year 2021 (in thousands of dollars, except percentages)
+
+Severance costs Others Costs (income) not related to current operations
+
+17 weeks 2022 $ -- 107
+
+16 weeks 2021 $ --
+(3,998)
+
+Variance % --
+(102.7)
+
+53 weeks 2022 $ -- 1,354
+
+107 (3,998) (102.7)
+
+1,354
+
+52 weeks 2021 $ 63
+(3,831)
+
+Variance %
+(100.0) (135.3)
+
+(3,768) (135.9)
+
+During the fiscal year 2021, the Company made some changes to its headcount to optimize its activities leading to severance costs.
+In 2021, the Ontario Ministry of Finance ("OMF") agreed to partially reimburse Colabor the penalty paid in 2017, plus interest, as final settlement to the notice of objection filed by Colabor in 2017. Effectively, in 2017, Colabor had received and paid a notice of an assessment advice of 6.4 million $ from the OMF in connection with activities involving the sale of tobacco products that took place between 2013 and 2016 within a division in Ontario. Colabor appealed the case in 2019. This amount was received during the first quarter of 2022. This income is net of legal fees and other charges related to non-recurring activities which are also accounted for in other non-recurring expenses.
+The other costs not related to current operations represent legal and professional fees and other charges related to non-current activities and acquisitions.
+
+(1) EBITDA and Adjusted EBITDA are non-IFRS measures. Refer to section 6 "Non-IFRS performance measures" for definitions and reconciliations to the most directly comparable IFRS measures.
+12
+
+3.1.5 Depreciation and Amortization
+
+Depreciation and Amortization for the fourth quarter and fiscal year 2021 (in thousands of dollars, except percentages)
+
+17 weeks
+2022 $
+
+16 weeks
+2021 $
+
+Variance %
+
+53 weeks 52 weeks
+
+2022
+
+2021 Variance
+
+$
+
+$
+
+%
+
+Depreciation of property, plant and equipment Amortization of intangible assets Depreciation of right-of-use assets
+
+810 1,274 3,384
+
+739 1,334 2,247
+
+9.6 (4.5) 50.6
+
+2,342 4,066 9,674
+
+2,277 4,225 7,586
+
+2.9 (3.8) 27.5
+
+Depreciation and Amortization
+
+5,468
+
+4,320
+
+26.6
+
+16,082 14,088
+
+14.2
+
+For the 17 and 53-week periods ended December 31, 2022, depreciation and amortization expense was up by 26.6% and 14.2%, respectively, compared to the same period of 2021, and is mainly explained by the increase in the depreciation of right-of-use assets following the renewal of leases over the last 12 months as well as the acquisition of tangible assets, mitigated by certain intangible assets fully amortized and depreciated.
+
+3.1.6 Financial Expenses
+
+Financial expenses for the fourth quarter and fiscal year 2021 (in thousands of dollars, except percentages)
+
+17 weeks
+2022 $
+
+16 weeks
+2021 $
+
+Variance %
+
+Interest on credit facility Interest on subordinated debt Effective interest on debentures Interest on lease obligations Other
+
+596
+
+438
+
+36.1
+
+355
+
+369
+
+(3.8)
+
+--
+
+--
+
+--
+
+541
+
+387
+
+39.8
+
+258
+
+92
+
+180.4
+
+Financial expenses
+
+1,750
+
+1,286
+
+36.1
+
+53 weeks 2022 $
+1,638 1,133
+-- 1,475
+534
+4,780
+
+52 weeks
+
+2021 Variance
+
+$
+
+%
+
+1,302 1,131
+934 1,324
+418
+
+25.8 0.2 (100.0) 11.4 27.8
+
+5,109
+
+(6.4)
+
+Financial expenses for the fourth quarter of 2022 amounted to $1.8 million, compared to $1.3 million for the corresponding period of 2021. This increase is due to higher interest rates despite a lower dept level and the renewal of leases over the last 12 months.
+For fiscal year 2022, financial expenses amounted to $4.8 million, compared to $5.1 million for the previous fiscal year. This decrease is due to a lower debt level and the redemption of the debentures in 2021, mitigated by higher interest rates and the renewal of leases over the last 12 months.
+
+3.1.7 Income Taxes
+For the 17 and 53-week periods ended December 31, 2022, income tax expense was $0.7 million and $1.8 million, respectively, compared to $0.0 million and $1.4 million for the corresponding periods of 2021. The variation is essentially explained by the non-taxable non-recurring gain in 2021.
+
+13
+
+3.1.8 Net Earnings
+
+Net earnings of the fourth quarter and fiscal year 2021 (in thousands of dollars, except net earnings per share and percentages)
+
+17 weeks
+2022 $
+
+16 weeks
+2021 $
+
+Variance %
+
+53 weeks
+2022 $
+
+52 weeks
+2021 $
+
+Variance %
+
+Net earnings from continuing operations Net loss from discontinued operations Net earnings Basic and diluted net earnings per share from continuing operations Basic and diluted net loss per share from discontinued operations Basic and diluted net earnings per share
+
+1,682 (419) 1,263
+0.02 --
+0.01
+
+5,336 (197) 5,139
+0.05 --
+0.05
+
+(68.5) 112.7 (75.4)
+(60.0) --
+(80.0)
+
+4,551 (486) 4,065
+0.04 --
+0.04
+
+8,253 (411) 7,842
+0.08 --
+0.08
+
+(44.9) 18.2 (48.2)
+(50.0) --
+(50.0)
+
+Net earnings from continuing operations for the fourth quarter of 2022 were $1.7 million, or $0.02 per share, compared to $5.3 million, or $0.05 per share for the corresponding period of last fiscal year. The main variations in the quarter are the nonrecurring gain of $4.0 million not related to current operations in the previous fiscal year, higher depreciation and amortization expenses, financial and income tax expenses, mitigated by an increase of the adjusted EBITDA(1) as explained previously. Net earnings for the fourth quarter were $1.3 million, or $0.01 per share, compared to $5.1 million, or $0.05 per share for the corresponding period of 2021. The variation is explained by the facts described above. The weighted average number of basic shares outstanding during the fourth quarter was 101,954,885, same as the corresponding period of 2021.
+Net earnings from continuing operations for the cumulative fiscal year 2022 were $4.6 million, or $0.04 per share, down from $8.3 million, or $0.08 per share during fiscal year 2021. Net earnings for fiscal year 2022 were $4.1 million, or $0.04 per share, a decrease of $3.7 million compared to $7.8 million, or $0.08 per share during the corresponding period of 2021. The variation is explained by the non-recurring gain of $3.8 million not related to current operations in the previous fiscal year, higher depreciation and amortization and income tax expenses, mitigated by lower financial expenses and an increase of the adjusted EBITDA(1) as explained previously. The weighted average number of basic shares outstanding during fiscal year 2022 was 101,954,885 compared to 101,893,919 for the corresponding period of 2021.
+
+(1) EBITDA and Adjusted EBITDA are non-IFRS measures. Refer to section 6 "Non-IFRS performance measures" for definitions and reconciliations to the most directly comparable IFRS measures.
+14
+
+3.2 Financial Position
+
+The following table presents the main elements of consolidated current assets and liabilities, that make up the Company's working capital(2). (in thousands of dollars)
+
+Current assets Trade and other receivables Inventories Current assets Current liabilities Trade and other payables Working capital(2)
+
+As at December 31,
+2022 $
+45,776 45,084 90,860
+42,060 48,800
+
+As at December 25,
+2021 $
+45,745 38,692 84,437
+43,667 40,770
+
+Variance $
+31 6,392 6,423
+(1,607) 8,030
+
+(2) Working capital is a non-IFRS performance measure. The Company calculates its working capital as described above. See section 1 "Scope of the MD&A and Notice to Investors" for more information on the seasonality of sales.
+As at December 31, 2022, the Company's working capital(2) was $48.8 million, up by $8.0 million compared to the end of the last fiscal year. This increase is explained as follows:
+
+Trade and Other Receivables Trade and other receivables balance is comparable to the balance as at December 25, 2021, due to higher sales in the fourth quarter compared to the fourth quarter of 2021, net of the receipt of the non-recurring gain which was receivable as at December 25, 2021.
+Inventories Inventory balance increased by $6.4 million from December 25, 2021. This increase is due to higher inventory levels related to a higher demand caused by an increase of sales.
+Trade and Other Payables The balance of trade and other payables decreased by $1.6 million from December 25, 2021, mainly due to the timing of supplier payments, mitigated by the increase in inventories.
+
+15
+
+3.3 Other Significant Changes in Financial Position
+
+The following table presents the other significant items of the Company's financial position as at December 31, 2022, and their corresponding variances from the fiscal year ended December 25, 2021.
+(in thousands of dollars)
+
+Property, Plant and Equipment Intangible Assets Right-of-use Assets Goodwill Deferred Tax Assets Long-Term Debt Lease Liabilities Pension Obligations Contingent consideration Deferred Tax Liabilities Equity Attributable to Shareholders
+
+As at December 31,
+2022 $
+8,247 22,079 38,057 73,072 3,026 46,375 42,457 2,279 1,188
+715 102,894
+
+As at December 25,
+2021 $
+5,568 22,855 33,471 70,813 4,775 49,989 35,299 2,658
+-- 19 97,590
+
+Variance $
+2,679 (776) 4,586 2,259 (1,749) (3,614) 7,158 (379) 1,188 696 5,304
+
+Property, Plant and Equipment The increase in property, plant and equipment is mainly due to acquisitions partly offset by depreciation.
+
+Intangible Assets
+The decrease in intangible assets is mainly due to amortization, mitigated by the acquisition of GRA and the Assets acquisition, as explained in section 4 "Business Combination and Assets Acquisition".
+
+Right-of-use Assets The increase in right-of-use assets is mainly due to the renewal of leases mitigated by depreciation.
+
+Goodwill The increase in goodwill is due to the acquisition of GRA during the current fiscal year.
+
+Deferred Tax Assets The decrease in deferred tax assets comes mainly from the reversal of tax attributes during the current fiscal year.
+
+Long-Term Debt
+Long-term debt reduction is mainly due to repayments of the credit facility for an amount of $3.8 million during the current fiscal year.
+
+Lease Liabilities
+The increase in lease liabilities is mainly due to the renewal of leases mitigated by the payments made during the current fiscal year.
+
+Pension obligations
+The Company has approved the full wind up of the defined benefit pension plan as of May 31, 2021. The process for winding up the plan is expected to be completed in 2023 and the obligations will be reimbursed at the same time.
+
+16
+
+Contingent consideration The increase in contingent consideration comes mainly from the acquisition of GRA.
+Deferred Tax Liabilities The increase in deferred tax assets comes mainly from the acquisition of GRA.
+Equity Attributable to Shareholders The increase in shareholders' equity is mainly due to net earnings and other comprehensive income for the fiscal year.
+
+3.4 Data Related to Outstanding Shares
+
+The following table presents the Company's shares and options data as at February 27, 2023. Refer to Notes 9, 18 and 20 of the interim condensed consolidated financial statements for further details.
+(in thousands of dollars, except the number of shares and the number of stock-options)
+
+Common shares Participating and voting common shares
+Options on participating and voting stock Outstanding options Exercisable options
+
+Number of shares / stock-options
+101,954,885
+4,698,982 2,208,982
+
+Amount $
+257,008
+
+3.5 Cash Flows
+
+The following table represents consolidated cash flows of the 17 and 53-week periods ended December 31, 2022. (in thousands of dollars)
+
+17 weeks
+2022 $
+
+16 weeks
+2021 $
+
+53 weeks
+2022 $
+
+Cash flows from operating activities Cash flows from investing activities Cash flows from financing activities Net change in cash and cash equivalents from continuing operations Net change in cash and cash equivalents from discontinued operations Cash and cash equivalents at the beginning
+
+(663) (2,059) (1,084)
+(3,806)
+-- 2,531
+
+9,035 (572) (7,297)
+1,166
+(12) 852
+
+19,299 (6,061) (16,511)
+(3,273)
+(8) 2,006
+
+Cash and cash equivalents at the end
+
+(1,275)
+
+2,006
+
+(1,275)
+
+52 weeks 2021 $
+18,752 (1,842) (23,917)
+(7,007)
+(181) 9,194
+2,006
+
+17
+
+Operating Activities
+Cash flows from operating activities amounted to $(0.7) million for the fourth quarter compared to $9.0 million for the corresponding period of 2021. This decrease is mainly due to higher utilization of working capital(2) and a decrease of income not related to current operations, mitigated by higher adjusted EBITDA(1). The higher utilization of working capital(2) is explained by the increase in inventory purchases and the timing of supplier payments.
+
+Cash flows from operating activities reached $19.3 million for fiscal year 2022 compared to $18.8 million for the corresponding period of 2021. This increase is mainly due to lower utilization of working capital(2) and higher adjusted EBITDA(1), mitigated by a decrease of income not related to current operations. The lower utilization of working capital(2) is explained by the receipt
+of the non-recurring gain which was receivable as at December 25, 2021 and a higher collection of receivables in 2022,
+mitigated by the timing of supplier payments.
+
+Investing Activities
+Cash flows used in investing activities amounted to $(2.1) million and $(6.1) million for the fourth quarter and fiscal year 2022 respectively compared to $(0.6) million and $(1.8) million for the corresponding periods of 2021. The variations are mainly due to the acquisition of GRA for a net amount of $2.0 million and higher property, plant and equipment and intangibles acquisitions.
+
+Financing Activities
+Cash flows used in financing activities amounted to $(1.1) million for the fourth quarter of 2022, down from $(7.3) million for the corresponding period of 2021. The variation is primarily due to the use of the credit facility for $3.5 million in 2022, compared to a repayment of $3.7 million in 2021.
+
+Cash flows used by financing activities amounted to $(16.5) million for the fiscal year, compared to $(23.9) million for the corresponding period of 2021. The variation is primarily due to a repayment of $3.8 million of the credit facility, compared to a use of $35.5 million for the redemption of the debentures for $49.3 million, and an additional $3.0 million borrowing of subordinated debt in the corresponding period of 2021.
+
+Payments Due Undiscounted cash flows, including capital and interest related to the Company's liabilities expire as follows: (in thousands of dollars)
+
+Contractual obligations
+Bank overdraft Trade and other payables Purchase price balance Credit facility Subordinated debt Contingent consideration Lease liabilities Commitments
+
+Total $
+1,275 42,060 1,000 37,178 18,444 1,500 47,743 140,270 289,470
+
+Less than 1 year $
+1,275 42,060 1,000 5,578 1,088
+750 13,406 1,064 66,221
+
+Payments due per period
+
+1 to 3 years $
+-- -- -- 31,600 2,175 750 13,976 19,531 68,032
+
+3 to 5 years $
+-- -- -- -- 15,181 -- 8,923 119,675 143,779
+
+5 years and over $
+-- -- -- -- -- -- 11,438 -- 11,438
+
+(1) EBITDA and Adjusted EBITDA are non-IFRS measures. Refer to section 6 "Non-IFRS performance measures" for definitions and reconciliations to the most directly comparable IFRS measures. (2) Working capital is a non-IFRS performance measure. Working capital is an indicator of the Company's ability to hedge its current liabilities with its current assets. Refer to section 3.2 "Financial Position" for detailed calculation.
+18
+
+3.6 Capital Resources
+During the fiscal year 2023, the Company anticipates that it will require cash to finance: · its fixed assets investments; · its opportunities investment; and · its contractual obligations.
+Available sources of internal and external financing are: · cash flows from operating activities; and · unused portion of the credit facility.
+As at December 31, 2022, the Company was in compliance with all debt covenants. The Company is expecting to be able to meet its obligations for the next 12 months by using future cash flows from operations and the unused portion of the credit facility.
+As at December 31, 2022 the Company had the following sources of financing:
+Credit Facility A senior secured credit facility for a total amount of $80.0 million, including a term loan of $30.0 million and a revolving credit of $50.0 million, of which $5.0 million in operating swingline. The facility bears interest at the cost of funds, plus a margin varying between 1.75% to 3.25% depending on the Company's leverage ratios, for an effective borrowing rate of 4.80% in 2022. The credit facility is guaranteed by the assets of the Company and by those of some of its subsidiaries and provides limits on the operations and activities, particularly regarding the authorized investments as well as some ratios essentially related to consolidated adjusted EBITDA, financial expenses and total debt which were met as at December 31, 2022. The term loan is repayable quarterly, for an annual amount of $3.0 million. By mutual agreement, the credit facility may be increased by $20.0 million and matures on February 18, 2025. As at December 31, 2022, the availability under the credit facility is $42.0 million.
+As at December 31, 2022, letters of credit amounting to $1.0 million ($1.0 million as at December 25, 2021) had been used to support the lease of one of the Company's distribution centers.
+Subordinated debt A subordinated debt of $15.0 million. The subordinated debt bears interest at a rate of 7.25% to 8.25% depending on the Company's leverage ratios, payable quarterly and matures on February 18, 2026. The subordinated debt is secured by a mortgage on all present and future assets of the Company, which is subordinated to the first-ranking security on the credit facility.
+Share Capital Colabor's share-capital consist of an unlimited number of common and preferred shares that may be issued in series, without nominal value. A summary of designation, rights, restrictions and conditions related to common and preferred shares is presented in Colabor's Annual Information Form ("AIF") dated March 1st, 2023 and is available on the SEDAR website at www.sedar.com.
+4. Business Combination and Assets Acquisition
+A) Acquisition of Le Groupe Resto-Achats Inc.
+On April 4, 2022, the Company acquired all of the shares of Le Groupe Resto-Achats Inc. and its subsidiaries for an amount of $4.5 million, of which $2.0 million was payable at the closing date, $1.0 million is payable on April 4, 2023 and $1.5 million in contingent consideration based on the achievement of certain income thresholds. The contingent consideration is payable in two equal installments of $0.8 million in the fourth quarters of 2023 and 2024. Working capital adjustments at the amount of $0.6 million were also paid.
+19
+
+Founded in 2008 and with offices in Quebec City, GRA is a major purchasing group for independent restaurants and seniors' residences located primarily in eastern Quebec. With more than 200 active members, GRA provides access to group business terms for food supply and other services related to restaurants.
+
+The purchase price allocation was determined as follows: (in thousands of dollars)
+
+Cash Trades and other receivables (i) Other current assets Property, plant and equipment Intangible assets Trade and other payables Deferred tax liabilities Total identifiable net assets acquired Goodwill (ii)
+
+Fair value $
+539 2,728
+9 48 2,352 (2,687) (623) 2,366 2,259
+
+Net assets acquired
+
+4,625
+
+Cash Purchase price balance (iii) Contingent consideration (iii)
+
+2,615 972
+1,038
+
+Total consideration transferred
+
+4,625
+
+(i) The gross contractual amount of trade and other receivables amounts to $2.7 million at the acquisition date. Based on the best
+
+estimate of contractual cash flows, all amounts are expected to be recovered.
+
+(ii) Goodwill primarily relates to forecasted growth, future profitability, expertise and significant employee competencies as well
+
+as expected cost synergies. Goodwill from this business combination is not expected to be deductible for tax purposes. This
+
+goodwill is allocated to the segment Others.
+
+(iii) The purchase price balance and contingent consideration correspond to the present value of the amounts described above.
+
+The purchase price balance is included in Other current liabilities in the consolidated statement of financial position.
+
+Business acquisition-related costs are not included as part of acquisition cost and have been recognized as costs not relating to current operations in the consolidated statements of earnings.
+The acquired company has contributed a total of $4.4 million to the Company's sales and $0.2 million to net earnings for the period between the date of acquisition and the end of the fiscal year. If the acquisition had occurred on December 26, 2021, management estimates that consolidated pro-forma sales and net earnings of the Company for the fiscal year ended December 31, 2022 would have been $575.0 million and $4.1 million respectively.
+
+B) Acquisition of Ben Deshaies Inc. assets
+On April 22, 2022, the Company has acquired certain assets from Ben Deshaies Inc. for an amount of $0.4 million, in particular the customer list related to foodservice activities in the Outaouais and Laurentians regions, as well as certain related equipments.
+
+20
+
+5. Summary of Recent Quarters
+
+The following table presents a summary of results for the last eight quarters: (in thousands of dollars, except per share data)
+
+Q4
+(17 weeks)
+$
+
+2022
+
+Q3
+
+Q2
+
+(12 weeks) (12 weeks)
+
+$
+
+$
+
+Q1
+(12 weeks)
+$
+
+Q4
+(16 weeks)
+$
+
+2021
+
+Q3
+
+Q2
+
+(12 weeks) (12 weeks)
+
+$
+
+$
+
+Q1
+(12 weeks)
+$
+
+Sales Adjusted EBITDA(1) Costs (income) not related to current operations Net earnings (loss) from continuing operations Net earnings (loss) from discontinued operations Net earnings (loss) Basic and diluted net earnings (loss) per share from continuing operations Basic and diluted net earnings (loss) per share
+
+193,246 145,670 9,855 8,894
+
+107
+
+102
+
+1,682 2,832
+
+(419) 1,263
+
+-- 2,832
+
+0.02
+
+0.03
+
+0.01
+
+0.03
+
+137,986 8,006 831 1,690 (14) 1,676
+0.02 0.02
+
+97,169 151,014 131,889 108,290 2,313 7,080 7,821 6,671
+
+314 (3,998)
+
+75
+
+64
+
+(1,653) 5,336 2,288 1,640
+
+(53) (1,706)
+
+(197) 5,139
+
+(250) 2,038
+
+52 1,692
+
+(0.02)
+
+0.05
+
+0.02
+
+0.02
+
+(0.02)
+
+0.05
+
+0.02
+
+0.02
+
+85,811 3,848
+91 (1,011)
+(16) (1,027)
+(0.01) (0.01)
+
+Sales for the last eight quarters have been impacted by different factors, such as the pandemic from the second quarter of fiscal year 2020. Fourth quarter sales of 2022 include an additional week compared to 2021. Net earnings for the first quarter of each financial year are generally negatively impacted by seasonality. Net earnings for the fourth quarter of 2021 were positively impacted by costs (income) not related to current operations.
+
+6. Non-IFRS Performance Measures
+This MD&A also contains information that follows non-IFRS measures of performance. Such information should not be considered in isolation or as a substitute for other IFRS performance measures, but rather as supplementary information. These measures are widely used in the financial community to evaluate the profitability of operations. They reflect the inclusion or exclusion of certain amounts that are not considered representative of the Company's recurring financial performance. Since these concepts are not defined by IFRS, they may not be comparable with those of other companies.
+Adjusted EBITDA
+It is a measure commonly used by management, as well as investors and analysts, that can assess of an entity's performance and capacity of generating cash flows from its current operations. Adjusted EBITDA corresponds to net earnings to which the following items are added: depreciation and amortization, costs (income) not related to current operations, expenses for stockbased compensation plan, financial expenses and income taxes.
+
+(1) EBITDA and Adjusted EBITDA are non-IFRS measures. Refer to section 6 "Non-IFRS performance measures" for definitions and reconciliations to the most directly comparable IFRS measures.
+21
+
+Reconciliation of Net Earnings to Adjusted EBITDA (in thousands of dollars)
+Net earnings from continuing operations Income taxes Financial expenses Operating earnings Expenses for stock-based compensation plan Costs (income) not related to current operations Depreciation and amortization Adjusted EBITDA
+
+17 weeks 2022 $
+1,682 686
+1,750 4,118
+162 107 5,468
+9,855
+
+16 weeks 2021 $
+5,336 (19)
+1,286 6,603
+155 (3,998) 4,320
+7,080
+
+53 weeks 2022 $
+4,551 1,826 4,780 11,157
+475 1,354 16,082
+29,068
+
+52 weeks 2021 $
+8,253 1,435 5,109 14,797
+303 (3,768) 14,088
+25,420
+
+Net Debt
+Net debt corresponds to bank indebtedness, current portion of long-term debt and long-term debt, net of cash as presented in Colabor's consolidated statements of financial position. The measure is used by investors and to calculate the financial leverage ratio.
+
+The following table presents the calculation of net debt: (in thousands of dollars)
+Cash Current portion of long-term debt Long-term debt Net debt
+
+As at December 31,
+2022 $
+1,014
+3,000
+43,750
+47,764
+
+As at December 25,
+2021 $
+(2,134)
+3,000
+47,500
+48,366
+
+Financial Leverage Ratio
+The financial leverage ratio is defined as net debt divided by adjusted EBITDA from continuing operations for the last four quarters and used by management to assess its ability to borrow capital. Refer to the table in section 5 "Summary of Recent Quarters".
+
+22
+
+7. Related Party Transactions
+Transactions between related parties of the Company consist of sales occurring with Dubé & Loiselle Inc., an entity owned by a director of the Company. The transactions were carried out in accordance with the various contracts governing relations between the Company and Dubé & Loiselle Inc., in the normal course of business.
+
+Transactions with Dubé & Loiselle Inc., an entity owned by a director of the Company until March 30, 2022, date on which the director's mandate ended
+(in thousands of dollars)
+
+Sales Trade and other receivables, net of remittances
+
+17 weeks 2022 $ --
+
+16 weeks 2021 $ 6,512
+
+53 weeks 2022 $ 4,989
+As at December 31,
+2022 $
+--
+
+52 weeks 2021 $
+18,957
+As at December 25,
+2021 $
+1,223
+
+8. Off-Balance Sheet Transactions
+The Company does not have any off-balance sheet transaction obligations, other than $1.0 million in letters of credit to support the leasing of one of the Company's distribution centers.
+9. Risks and Uncertainties
+The Company's activities are subject to numerous risks and uncertainties that are described in detail in its March 1st, 2023, Annual Information Form (the "AIF"), which may be viewed on the SEDAR website at www.sedar.com and on the Company's website at www.colabor.com. The risks described in the AIF are incorporated by reference in this MD&A.
+10. Significant Estimates and Judgments
+When preparing the consolidated financial statements, management undertakes a number of judgments, estimates and assumptions about the recognition and measurement of assets, liabilities, income and expenses. These judgments and estimates are based on facts and information that are available to management, and are reassessed yearly at the end of each reporting period. The actual results are likely to differ from judgments, estimates and assumptions made by management, and will seldom equal the estimated results.
+Information about the significant judgments, estimates and assumptions that have the most significant effect on the recognition and measurement of assets, liabilities, income and expenses is provided below:
+
+23
+
+Supplier rebates Supplier rebates recognized are estimated on the basis that the necessary conditions for obtaining the rebates have been satisfied. Useful lives of depreciable assets Management reviews the useful lives of depreciable assets at each reporting date based on the expected usage of the Company's assets. Actual results, however, may vary due to technical obsolescence, particularly for distribution software and computer hardware. Pension obligation Management estimates the pension obligation annually with the assistance of independent actuaries; however, the actual outcome may vary due to estimation uncertainties. The estimate of its pension obligation is based on rates of inflation and mortality that management considers to be reasonable. It also takes into account the Company's specific anticipation of future salary increases, retirement ages of employees and other actuarial factors. Discount factors are determined close to each yearend by reference to high-quality corporate bonds that are denominated in the currency in which the benefits will be paid and that have terms to maturity approximating the terms of the related pension liability. The estimates are subject to uncertainties, and may vary significantly in future appraisals of the Company's defined benefit obligations. Impairment An impairment loss is recognized for the amount by which an asset's or CGU's carrying amount exceeds its recoverable amount. To determine the recoverable amount, management estimates expected future cash flows from each asset or CGU and determines a suitable interest rate in order to calculate the present value of those cash flows. In the process of measuring expected future cash flows, management makes key assumptions about future operating results such as the growth rate, the earnings before taxes, financial expenses, depreciation and amortization ratio, and the discount rate. These key assumptions relate to future events and circumstances. The actual results may vary, and may cause significant adjustments to the Company's assets in the next financial years. In most cases, determining the applicable discount rate involves estimating the appropriate adjustment to market risk and the appropriate adjustment to asset-specific risk factors. Business combinations On initial recognition, the assets and liabilities of the acquired business and the consideration paid for them are included in the consolidated statements of financial position at their fair values. In measuring fair value, management uses estimates of future cash flows and discount rates. Any subsequent change in these estimates would affect the amount of goodwill if the change qualifies as an adjustment in the measurement period. Any other change would be recognized in the consolidated statement of earnings in the subsequent period.
+24
+
+11. Internal Controls Over Financial Reporting
+Management has designed and assessed disclosure controls and procedures (DC&P) and internal controls over financial reporting (ICFR) to provide reasonable assurance that the financial information presented by the Company is reliable and that the financial statements it releases to the public are prepared in accordance with IFRS. The President and CEO as well as Senior Vice President and Chief Financial Officer have assessed, in accordance with Regulation 52-109 respecting Certification of Disclosure in Issuers' Annual and Interim Filings, the design and the effectiveness of ICFR and DC&P as at December 31, 2022. On the basis of this assessment, they have concluded that the design and the effectiveness of ICFR and DC&P are effective. For the 53-week period ended December 31, 2022, the President and CEO as well as the Senior Vice President and Chief Financial Officer have also assessed that there were no changes in the internal control over financial reporting process or in the disclosure controls and procedures that have materially affected, or are reasonably likely to materially affect, internal controls and procedures.
+12. New Accounting Policies
+Standards issued but not yet in effect Disclosure of Accounting Policies - Amendments to IAS 1 and IFRS Practice Statement 2 In February 2021, the IASB amended IAS 1, Presentation of Financial Statements, to require entities to disclose their material accounting policy information rather than their significant accounting policies. Further amendments to IAS 1 are made to explain how an entity can identify a material accounting policy. The amendments are effective for annual reporting periods beginning on or after January 1st, 2023, with earlier application permitted. The Company's management does not expect a material impact on its accounting policies disclosure. Deferred Tax related to Assets and Liabilities arising from a Single Transaction - Amendments to IAS 12 In May 2021, the IASB amended IAS 12, Income Taxes, to clarify how companies should account for deferred tax on certain transactions that on initial recognition give rise to equal taxable and deductible temporary differences. The amendments are effective for annual reporting periods beginning on or after January 1st, 2023, with early application permitted. The Company's management does not expect a material impact on the Company's consolidated financial statements.
+25
+
+13. Financial Instruments
+
+A) Fair value
+
+Fair value of cash and cash equivalent, trade and other receivables as well as trade and other payables is equivalent to the carrying amount due to their short-term maturity. Therefore, the time value of money is non-significant.
+
+The carrying amount and fair value of the other financial instruments in the consolidated statements of financial position are as follows:
+
+(in thousands of dollars)
+
+As at December 31,
+2022
+
+As at December 25,
+2021
+
+Carrying amount $
+
+Fair value
+$
+
+Carrying amount $
+
+Fair value
+$
+
+Financial asset Non-current Derivative financial instrument
+
+740
+
+740
+
+145
+
+145
+
+Financial liabilities Current Purchase price balance
+Non-current Credit facility Subordinated debt Contingent consideration
+
+993
+31,531 14,844 1,188 48,556
+
+1,000
+31,750 15,000 1,188 48,938
+
+--
+35,185 14,804
+-- 49,989
+
+--
+35,500 15,000
+-- 50,500
+
+In April 2021, the Company entered into an interest rate swap agreement with an initial nominal value of $15.0 million to cover the risk of interest rate fluctuations on a portion of its credit facility beginning in March 2022 until its maturity in 2025. The interest rate fixed by the swap is 1.43%. Since this interest rate swap meet the hedge accounting conditions, changes in fair value are recognized in other comprehensive income.
+The fair value of the interest rate swap is calculated at the present value of the estimated future cash flows using an appropriate interest rate yield curve. Assumptions are based on market conditions prevailing at each reporting date. The fair value of derivative instrument reflects the estimated amounts that the Company would receive or pay to settle the contract at the reporting date. As at December 31, 2022, the fair value of the interest rate swap is an asset of $0.7 million and is accounted for under Other in the non-current assets of the consolidated statement of financial position.
+The fair value of contingent consideration was determined by discounting future cash flows at the Company's marginal borrowing rate.
+The fair value of the credit facility is comparable to the carrying amount as the interest rate fluctuates with the market rate with conditions comparable to those prevailing in the market.
+The fair value of subordinated debt was determined by discounting future cash flows at 7.25% (7.25% as at December 25, 2021), the current rate of subordinated debt.
+
+26
+
+Fair value measurement When determining an asset or a liability's fair value, the Company uses observable market data as much as possible. Financial assets and liabilities measured at fair value are presented using a three-level fair value hierarchy that reflects the significance of the inputs used in making the fair value measurements of these items. The three fair value hierarchy levels are as follows:
+· Level 1: Quoted prices (unadjusted) in active markets for identical assets or liabilities;
+· Level 2: Inputs other than quoted prices included in Level 1 that are observable for the asset or liability, either directly or indirectly; and
+· Level 3: Inputs for the asset or liability that are not based on observable market data.
+As at December 31, 2022, the Company has classified the fair value measurement of the credit facility, the subordinated debt and of the interest rate swap as Level 2, and the contingent consideration as Level 3. There was no transfer between the levels during the fiscal year 2022.
+B) Financial risks management
+The Company is exposed to various financial risks resulting from its operating, investing and financing activities. The Company's management manages financial risks in the purpose of limiting the Company's main financial risk exposure, its financial risk management policies are detailed below. The Company does not enter into financial instrument agreements, including derivative financial instruments, for speculative purposes.
+Interest rate risk
+The credit facility bears interest at variable rates, and this exposes the Company to the cash flow risks resulting from interest rate fluctuations. The Company's other financial assets and liabilities do not result in any interest rate risk since they do not bear interest at variable rates. The Company manages its exposure to interest rate risk by favoring an appropriate mix of fixed and floating rate financial liabilities.
+The sensitivity analysis includes items bearing interest at variable rates and indicates that a reasonably possible 1.0% fluctuation in the interest rate on current market conditions would have an impact of $0.2 million on net earnings in 2022 ($0.2 million in 2021). In addition, the Company entered into an interest rate swap agreement with an initial nominal value of $15.0 million with a financial institution in order to hedge the risk of fluctuations in interest rates on a portion of its credit facility beginning in March 2022 and until its maturity in 2025. The Company periodically reviews the level of the debt on which the interest rates must be fixed. Credit risk
+The carrying amount on the consolidated statements of financial position of trade and other accounts receivable and other assets represents the maximum amount exposed to credit risk.
+The Company's credit risk is primarily attributable to its trade accounts receivable and other assets. The credit risk related to trade accounts receivable is generally diversified. The Company requires a guarantee or letter of credit from some of its customers. As at December 31, 2022, the Company had guarantees for about 1.1% of its trade accounts receivable (1.4% as at December 25, 2021). In addition, following the beginning of the pandemic, the payment terms of some customers have been modified for prepayments or payments on delivery in order to minimize credit risks.
+The Company's policy is to have each customer undergo a credit check.
+27
+
+Liquidity risk Liquidity risk management serves to maintain a sufficient amount of cash and sources of financing in the form of authorized bank loans. The Company establishes budget estimates and cash flow forecasts to ensure it has the necessary funds to fulfill its obligations. These forecasts are updated on a regular basis. According to our updated forecast based on information currently available to management, the Company is expecting to be able to meet its obligations for the next 12 to 15 months by using future cash flows from operating and funds available under the credit facility in place.
+28
+
+
