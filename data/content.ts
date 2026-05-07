@@ -78,14 +78,6 @@ export const team = [
     image: '/images/team/partner-5.jpg?v=2',
     linkedin: 'https://www.linkedin.com/in/sze-siang-chong/',
   },
-  {
-    id: 5,
-    name: 'Yash Khurana',
-    title: 'Analyst',
-    bio: 'Professional Summary:\n- Investment Analyst specializing in fundamental analysis and complex financial modeling.\n\nTrajectory:\n- Joined Movement in 2025, demonstrating rapid professional advancement from Intern to Analyst within the same year.\n\nEducation:\n- Graduate of the University of British Columbia.',
-    image: '/images/team/partner-4.JPG',
-    linkedin: 'https://www.linkedin.com/in/yash-khurana-4201/?originalSubdomain=ca',
-  },
 ]
 
 export const whatWeDo = {
