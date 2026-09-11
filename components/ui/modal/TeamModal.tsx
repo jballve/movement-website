@@ -137,18 +137,20 @@ export default function TeamModal({ member, isOpen, onClose }: TeamModalProps) {
 
                 <div className="mt-12 pt-8 border-t border-white/10 md:border-border flex items-center justify-between">
                   {/* LinkedIn Link */}
-                  <a 
-                    href={member.linkedin || "#"} 
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-3 text-white/70 md:text-foreground/60 hover:text-accent transition-colors group"
-                  >
-                    <Linkedin className="w-5 h-5" />
-                    <span className="font-body text-xs tracking-wider uppercase group-hover:underline">LinkedIn Profile</span>
-                  </a>
+                  {member.linkedin && (
+                    <a
+                      href={member.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-3 text-white/70 md:text-foreground/60 hover:text-accent transition-colors group"
+                    >
+                      <Linkedin className="w-5 h-5" />
+                      <span className="font-body text-xs tracking-wider uppercase group-hover:underline">LinkedIn Profile</span>
+                    </a>
+                  )}
                   
                   {/* Movement Monogram (Small) */}
-                  <div className="opacity-40 md:opacity-20 w-8 h-8 invert md:invert-0">
+                  <div className="opacity-40 md:opacity-20 w-8 h-8 invert md:invert-0 ml-auto">
                      <Logo variant="mark" color="auto" className="w-full h-full" />
                   </div>
                 </div>
