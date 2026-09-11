@@ -2,335 +2,369 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ------------------------------------------------------------------
+   Design tokens
+   Colours are RGB channel triplets so Tailwind opacity modifiers work.
+   Light palette is derived from the Movement brand manual:
+   charcoal #232120 · cool brown #5f504d · beige #e6dcd1 · warm grey #eceae6
+------------------------------------------------------------------- */
 :root {
-  /* Movement Brand Colors - Enhanced */
-  --mvmt-dark: #232120;
-  --mvmt-brown: #5f504d;
-  --mvmt-beige: #e6dcd1;
-  --mvmt-light: #eceae6;
+  --c-paper: 244 241 236;
+  --c-surface: 236 234 230;
+  --c-surface-2: 230 220 209;
+  --c-ink: 35 33 32;
+  --c-ink-muted: 95 80 77;
+  --c-accent: 124 106 78;
+  --c-line: 216 209 199;
+  --c-line-subtle: 228 222 213;
 
-  /* Premium Gold Accent */
-  --mvmt-gold: #9a8052;
+  --header-h: 4.5rem;
+  --section-y: clamp(4rem, 3rem + 5vw, 8rem);
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
 
-  /* Light Mode - WCAG AA Compliant */
-  --background: #f8f6f3;           /* Soft off-white for depth */
-  --background-elevated: #ffffff;   /* Pure white for cards */
-  --foreground: #1a1918;           /* Near-black for max contrast */
-  --foreground-muted: #4a4543;     /* High-contrast secondary text */
-  --accent: #7a6a45;               /* Darker gold for light mode contrast */
-  --accent-hover: #5f5235;         /* Even darker for hover states */
-  --muted: #ebe7e2;                /* Subtle section backgrounds */
-  --border: #d5cfc7;               /* Visible but soft borders */
-  --border-subtle: #e8e4de;        /* Very subtle dividers */
-
-  /* Shadows for Light Mode depth */
-  --shadow-sm: 0 1px 2px rgba(26, 25, 24, 0.05);
-  --shadow-md: 0 4px 12px rgba(26, 25, 24, 0.08);
-  --shadow-lg: 0 8px 24px rgba(26, 25, 24, 0.12);
-
-  /* Map Specific Colors */
-  --map-primary: #0B3C5D;
-  --map-land: #c7cdd6; /* Darker gray-300 for better contrast */
-  --map-ocean: #ffffff; /* Pure white for clean contrast against land */
+  color-scheme: light;
 }
 
-.dark {
-  /* Dark Mode - Premium & Legible */
-  --background: #1a1918;           /* Deep charcoal */
-  --background-elevated: #242221;  /* Slightly lighter for cards */
-  --foreground: #f0ebe5;           /* Warm off-white */
-  --foreground-muted: #d6d3d1;     /* Lighter gray for better legibility on dark */
-  --accent: #c4a96a;               /* Brighter gold for dark mode */
-  --accent-hover: #d4bc7a;         /* Lighter for hover states */
-  --muted: #262423;                /* Subtle section backgrounds */
-  --border: #525252;               /* Stronger borders */
-  --border-subtle: #404040;        /* Subtle dividers */
 
-  /* Shadows for Dark Mode depth */
-  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
-  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
-  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
-
-  /* Map Specific Colors - Dark Mode */
-  --map-primary: #38bdf8; /* Light blue for contrast against dark */
-  --map-land: #52525b; /* zinc-600 - Lighter than background */
-  --map-ocean: #18181b; /* zinc-950 - Dark background */
-}
-
-@keyframes dash-flow {
-  to {
-    stroke-dashoffset: -20;
-  }
-}
-
-.animate-dash-flow {
-  animation: dash-flow 1s linear infinite;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
+/* ------------------------------------------------------------------
+   Base
+------------------------------------------------------------------- */
 html {
-  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--header-h) + 1.5rem);
+  -webkit-text-size-adjust: 100%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
 }
 
 body {
-  background-color: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-work-sans), system-ui, sans-serif;
-  transition: background-color 0.5s ease, color 0.5s ease;
-  overflow-x: hidden;
+  @apply bg-paper text-ink font-body antialiased;
+  font-size: 1rem;
+  line-height: 1.6;
+  overflow-x: clip;
+  text-rendering: optimizeLegibility;
 }
 
-/* Film Grain Noise Overlay */
-.noise-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  z-index: 9999;
-  opacity: 0.025;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
-}
-
-/* Blueprint Grid Background */
-.blueprint-grid {
-  position: absolute;
-  inset: 0;
-  background-image:
-    linear-gradient(var(--border) 1px, transparent 1px),
-    linear-gradient(90deg, var(--border) 1px, transparent 1px);
-  background-size: 80px 80px;
-  opacity: 0.08;
-  pointer-events: none;
-}
-
-/* Custom Scrollbar - Industrial */
-::-webkit-scrollbar {
-  width: 4px;
-}
-
-::-webkit-scrollbar-track {
-  background: var(--muted);
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--accent);
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: var(--foreground);
-}
-
-/* Selection styling */
-::selection {
-  background-color: var(--accent);
-  color: var(--background);
-}
-
-/* Focus styles */
-:focus-visible {
-  outline: 1px solid var(--accent);
-  outline-offset: 2px;
-}
-
-/* Sharp Industrial Buttons - Enhanced Contrast */
-.btn-industrial {
-  @apply px-8 py-4 border-2 border-accent bg-transparent text-foreground font-heading tracking-[0.2em] uppercase text-sm font-medium;
-  @apply transition-all duration-300;
-  @apply hover:bg-accent hover:text-white;
-  position: relative;
-  overflow: hidden;
-  box-shadow: var(--shadow-sm);
-}
-
-.btn-industrial:hover {
-  box-shadow: var(--shadow-md);
-}
-
-.btn-industrial::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(154, 128, 82, 0.15), transparent);
-  transition: left 0.6s cubic-bezier(0.77, 0, 0.175, 1);
-}
-
-.btn-industrial:hover::before {
-  left: 100%;
-}
-
-/* Lume Glow Effect for Cards - Theme Aware */
-.lume-glow {
-  transition: box-shadow 0.5s cubic-bezier(0.77, 0, 0.175, 1), border-color 0.5s ease, transform 0.3s ease;
-  box-shadow: var(--shadow-sm);
-}
-
-.lume-glow:hover {
-  box-shadow: var(--shadow-lg), 0 0 30px rgba(154, 128, 82, 0.1);
-  border-color: var(--accent);
-}
-
-/* Section padding consistency - reduced */
-.section-padding {
-  @apply py-16 md:py-20 lg:py-24;
-}
-
-/* Container max-width */
-.container-custom {
-  @apply max-w-7xl mx-auto px-6 md:px-8 lg:px-12;
-}
-
-/* Video Crystal Overlay */
-.crystal-overlay {
-  background: radial-gradient(ellipse at center, transparent 30%, var(--background) 100%);
-}
-
-/* System Status Look */
-.system-text {
-  @apply font-body text-[10px] tracking-[0.3em] uppercase opacity-50;
-}
-
-/* Sharp Card Borders - No rounded corners, Enhanced Depth */
-.card-sharp {
-  @apply border border-border;
-  @apply transition-all duration-500 ease-out;
-  background-color: var(--background-elevated);
-  box-shadow: var(--shadow-sm);
-}
-
-.dark .card-sharp {
-  background-color: var(--background-elevated);
-}
-
-.card-sharp:hover {
-  @apply border-accent;
-  box-shadow: var(--shadow-md);
-}
-
-/* Premium Underline */
-.premium-underline {
-  position: relative;
-}
-
-.premium-underline::after {
-  content: '';
-  position: absolute;
-  bottom: -4px;
-  left: 0;
-  width: 0;
-  height: 1px;
-  background: var(--accent);
-  transition: width 0.5s cubic-bezier(0.77, 0, 0.175, 1);
-}
-
-.premium-underline:hover::after {
-  width: 100%;
-}
-
-/* Mechanical Line Animation */
-.line-mechanical {
-  transform-origin: left;
-  transform: scaleX(0);
-}
-
-/* Typography Utilities */
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@screen md {
+  body {
+    font-size: 1.0625rem;
+    line-height: 1.65;
   }
 }
 
-/* Hero Section - Theme Aware Styles */
-
-/* Radial vignette for hero - light mode uses light colors, dark mode uses dark */
-.hero-vignette {
-  background: radial-gradient(
-    ellipse at center,
-    rgba(248, 246, 243, 0.6) 0%,
-    rgba(248, 246, 243, 0.3) 50%,
-    rgba(248, 246, 243, 0.5) 100%
-  );
+:focus-visible {
+  outline: 2px solid rgb(var(--c-accent));
+  outline-offset: 3px;
 }
 
-.dark .hero-vignette {
-  background: radial-gradient(
-    ellipse at center,
-    rgba(26, 25, 24, 0.7) 0%,
-    rgba(26, 25, 24, 0.3) 50%,
-    rgba(26, 25, 24, 0.5) 100%
-  );
+::selection {
+  background-color: rgb(var(--c-ink));
+  color: rgb(var(--c-paper));
 }
 
-/* Backdrop blur panel - light mode uses white/light, dark mode uses dark */
-.hero-backdrop {
-  background: radial-gradient(
-    ellipse at center,
-    rgba(248, 246, 243, 0.9) 0%,
-    rgba(248, 246, 243, 0.7) 60%,
-    transparent 100%
-  );
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+
+/* Headline default weight and balance */
+h1, h2, h3, h4 {
+  @apply font-heading;
+  text-wrap: balance;
 }
 
-.dark .hero-backdrop {
-  background: radial-gradient(
-    ellipse at center,
-    rgba(26, 25, 24, 0.85) 0%,
-    rgba(26, 25, 24, 0.6) 60%,
-    transparent 100%
-  );
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+p {
+  text-wrap: pretty;
 }
 
-/* Text shadows - stronger shadows for readability without backdrop panel */
-.hero-text-shadow {
-  text-shadow:
-    0 2px 4px rgba(0, 0, 0, 0.3),
-    0 4px 12px rgba(0, 0, 0, 0.25),
-    0 8px 24px rgba(0, 0, 0, 0.2),
-    0 0 60px rgba(248, 246, 243, 0.5);
+/* ------------------------------------------------------------------
+   Layout helpers
+------------------------------------------------------------------- */
+.container-x {
+  @apply mx-auto w-full max-w-content px-6 md:px-10 lg:px-16;
 }
 
-.dark .hero-text-shadow {
-  text-shadow:
-    0 2px 4px rgba(0, 0, 0, 0.5),
-    0 4px 8px rgba(0, 0, 0, 0.3);
+.section {
+  padding-block: var(--section-y);
 }
 
-.hero-text-shadow-sm {
-  text-shadow:
-    0 1px 3px rgba(0, 0, 0, 0.2),
-    0 2px 8px rgba(0, 0, 0, 0.15),
-    0 0 40px rgba(248, 246, 243, 0.4);
+.rule {
+  @apply border-t border-line;
 }
 
-.dark .hero-text-shadow-sm {
-  text-shadow:
-    0 2px 8px rgba(0, 0, 0, 0.8),
-    0 4px 16px rgba(0, 0, 0, 0.6),
-    0 0 60px rgba(0, 0, 0, 0.8);
+.rule-strong {
+  @apply border-t border-ink;
 }
 
-/* Hero Logo - no shadow in dark mode */
-.hero-logo-clean {
-  filter: none !important;
-  box-shadow: none !important;
-  -webkit-filter: none !important;
+/* ------------------------------------------------------------------
+   Scroll reveal
+   Content is fully visible without JavaScript; the `.js` class is added
+   before paint by an inline script in the root layout.
+------------------------------------------------------------------- */
+.js .reveal {
+  opacity: 0;
+  transform: translateY(14px);
+  transition:
+    opacity 0.7s var(--ease-out),
+    transform 0.7s var(--ease-out);
+  will-change: opacity, transform;
 }
 
-.hero-logo-clean img {
-  filter: none !important;
-  box-shadow: none !important;
-  -webkit-filter: none !important;
+.js .reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .js .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+/* Above-the-fold entrance: CSS keyframes, starts on first paint, no JS wait */
+.js .enter {
+  animation: enter 0.8s var(--ease-out) both;
+}
+
+@keyframes enter {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .js .enter {
+    animation: none;
+  }
+}
+
+/* ------------------------------------------------------------------
+   Links and interactive details
+------------------------------------------------------------------- */
+.link-draw {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 0% 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.35s var(--ease-out);
+  padding-bottom: 2px;
+}
+
+.link-draw:hover,
+.link-draw:focus-visible,
+.group:hover .link-draw {
+  background-size: 100% 1px;
+}
+
+.link-underline {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+  text-decoration-color: rgb(var(--c-line));
+  transition: text-decoration-color 0.25s var(--ease-out), color 0.25s var(--ease-out);
+}
+
+.link-underline:hover {
+  text-decoration-color: currentColor;
+}
+
+/* Portrait treatment: unified warm grayscale, colour on hover/focus */
+.portrait img {
+  filter: grayscale(1) sepia(0.08) contrast(1.02);
+  transition:
+    filter 0.6s var(--ease-out),
+    transform 1s var(--ease-out);
+}
+
+.portrait:hover img,
+.portrait:focus-within img,
+.portrait.is-color img {
+  filter: none;
+}
+
+.portrait:hover img {
+  transform: scale(1.02);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .portrait:hover img {
+    transform: none;
+  }
+}
+
+/* ------------------------------------------------------------------
+   Mobile menu panel (CSS transitions, no motion library)
+------------------------------------------------------------------- */
+.menu-panel {
+  position: fixed;
+  inset: var(--header-h) 0 0 0;
+  z-index: 40;
+  overflow-y: auto;
+  background: rgb(var(--c-paper));
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-8px);
+  transition:
+    opacity 0.25s var(--ease-out),
+    transform 0.25s var(--ease-out),
+    visibility 0s linear 0.25s;
+}
+
+.menu-panel[data-open] {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  transition-delay: 0s;
+}
+
+.menu-item {
+  opacity: 0;
+  transform: translateY(8px);
+  transition:
+    opacity 0.3s var(--ease-out),
+    transform 0.3s var(--ease-out);
+}
+
+.menu-panel[data-open] .menu-item {
+  opacity: 1;
+  transform: none;
+  transition-delay: calc(50ms + var(--i, 0) * 40ms);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .menu-panel,
+  .menu-item {
+    transition: none;
+  }
+}
+
+/* ------------------------------------------------------------------
+   Native dialog
+------------------------------------------------------------------- */
+dialog.sheet {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  max-width: none;
+  max-height: none;
+  width: 100%;
+  height: 100dvh;
+  inset: 0;
+  background: rgb(var(--c-paper));
+  color: rgb(var(--c-ink));
+  opacity: 0;
+  transform: translateY(12px);
+  transition:
+    opacity 0.25s var(--ease-out),
+    transform 0.25s var(--ease-out),
+    overlay 0.25s allow-discrete,
+    display 0.25s allow-discrete;
+}
+
+dialog.sheet[open] {
+  opacity: 1;
+  transform: none;
+}
+
+@starting-style {
+  dialog.sheet[open] {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+}
+
+dialog.sheet.is-closing {
+  opacity: 0;
+  transform: translateY(12px);
+}
+
+dialog.sheet::backdrop {
+  background: rgb(35 33 32 / 0.55);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  transition: opacity 0.25s var(--ease-out);
+}
+
+dialog.sheet.is-closing::backdrop {
+  opacity: 0;
+}
+
+@screen md {
+  dialog.sheet {
+    width: min(64rem, calc(100% - 3rem));
+    height: min(40rem, calc(100dvh - 3rem));
+    margin: auto;
+    inset: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  dialog.sheet,
+  dialog.sheet::backdrop {
+    transition: none;
+  }
+}
+
+/* ------------------------------------------------------------------
+   Forms
+------------------------------------------------------------------- */
+.field {
+  @apply w-full bg-transparent border-0 border-b border-line py-3 text-ink placeholder:text-ink-muted/60 focus:border-ink focus:outline-none transition-colors duration-250;
+  border-radius: 0;
+  font-size: 1rem;
+}
+
+.field:focus-visible {
+  outline: none;
+}
+
+
+select.field {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%235f504d' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0 center;
+  padding-right: 1.5rem;
+}
+
+
+/* ------------------------------------------------------------------
+   Utilities
+------------------------------------------------------------------- */
+.eyebrow {
+  @apply font-body text-eyebrow uppercase text-ink-muted;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Hero media: warm, slightly desaturated so it sits with the palette */
+.media-warm {
+  filter: grayscale(0.35) sepia(0.12) contrast(1.02) brightness(0.98);
+}
+
+
+@media print {
+  header, footer, .no-print {
+    display: none !important;
+  }
+  body {
+    background: #fff;
+    color: #000;
+  }
 }

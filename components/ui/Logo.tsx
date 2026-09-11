@@ -1,89 +1,63 @@
-'use client'
-
 import Image from 'next/image'
 import { cn } from '@/lib/utils'
-import { useTheme } from 'next-themes'
-import { useEffect, useState } from 'react'
 
-interface LogoProps {
-  variant?: 'full' | 'mark' | 'text'
+type LogoProps = {
+  /** lockup = mark + wordmark (header); mark = monogram only; stacked = mark + wordmark + tagline */
+  variant?: 'lockup' | 'mark' | 'stacked'
+  /** dark = dark artwork for light surfaces (default); light = light artwork for the charcoal footer and similar. */
+  tone?: 'dark' | 'light'
   className?: string
-  color?: 'dark' | 'light' | 'brown' | 'auto'
+  priority?: boolean
 }
 
-export default function Logo({ variant = 'full', className, color = 'auto' }: LogoProps) {
-  const { theme, resolvedTheme } = useTheme()
-  const [mounted, setMounted] = useState(false)
+const art = {
+  mark: { dark: '/assets/brand/mark-dark.png', light: '/assets/brand/mark-light.png', w: 213, h: 213 },
+  wordmark: { dark: '/assets/brand/wordmark-dark.png', light: '/assets/brand/wordmark-light.png', w: 554, h: 66 },
+  stacked: {
+    dark: '/assets/brand/lockup-stacked-dark.png',
+    light: '/assets/brand/lockup-stacked-light.png',
+    w: 558,
+    h: 403,
+  },
+}
 
-  // Avoid hydration mismatch
-  useEffect(() => {
-    setMounted(true)
-  }, [])
-
-  // Asset paths
-  const assets = {
-    mark: {
-      light: '/assets/logos/Movement_Mark_White.png',
-      dark: '/assets/logos/Movement_Mark_Black.png', 
-    },
-    full: {
-      light: '/assets/logos/Movement_Logo_Tagline_White.png',
-      dark: '/assets/logos/Movement_Logo_Tagline_Black.png',
-    }
-  }
-
-  if (!mounted) {
-    // Return a stable placeholder or null during server-side rendering/hydration
-    // Using a simple div with aspect ratio to prevent layout shift
-    return <div className={cn('relative aspect-[3/1]', className)} />
-  }
-
-  // Determine which logo to show
-  // If color is 'auto', we decide based on the current theme
-  // 'light' theme needs 'dark' logo (black text on white bg)
-  // 'dark' theme needs 'light' logo (white text on dark bg)
-  
-  let useLightLogo = false // Default to dark logo (for light backgrounds)
-
-  if (color === 'light') {
-    useLightLogo = true
-  } else if (color === 'dark') {
-    useLightLogo = false
-  } else if (color === 'auto') {
-    // In auto mode, we invert: Dark Mode = Light Logo, Light Mode = Dark Logo
-    useLightLogo = resolvedTheme === 'dark'
-  }
-
-  // Mark Only (Monogram)
+export default function Logo({ variant = 'lockup', tone = 'dark', className, priority }: LogoProps) {
   if (variant === 'mark') {
     return (
-      <div className={cn('relative aspect-square', className)} style={{ filter: 'none', boxShadow: 'none' }}>
-        <Image
-          src={useLightLogo ? assets.mark.light : assets.mark.dark}
-          alt="Movement Monogram"
-          fill
-          className="object-contain"
-          priority
-          style={{ filter: 'none', boxShadow: 'none' }}
-        />
-      </div>
+      <span className={cn('inline-block', className)}>
+        <Image src={art.mark[tone]} alt="Movement" width={art.mark.w} height={art.mark.h} className="h-full w-auto" priority={priority} sizes="64px" />
+      </span>
     )
   }
 
-  // Full Logo (Wordmark + Tagline)
-  if (variant === 'full') {
+  if (variant === 'stacked') {
     return (
-      <div className={cn('relative aspect-[3/1]', className)}>
+      <span className={cn('inline-block', className)}>
         <Image
-          src={useLightLogo ? assets.full.light : assets.full.dark}
-          alt="Movement Logo"
-          fill
-          className="object-contain object-left"
-          priority
+          src={art.stacked[tone]}
+          alt="Movement — Investing Through Time"
+          width={art.stacked.w}
+          height={art.stacked.h}
+          className="h-auto w-full"
+          priority={priority}
+          sizes="240px"
         />
-      </div>
+      </span>
     )
   }
 
-  return null
+  return (
+    <span className={cn('inline-flex items-center gap-3', className)}>
+      <Image src={art.mark[tone]} alt="" width={art.mark.w} height={art.mark.h} className="h-[2.125rem] w-auto" priority={priority} sizes="34px" />
+      <Image
+        src={art.wordmark[tone]}
+        alt="Movement"
+        width={art.wordmark.w}
+        height={art.wordmark.h}
+        className="h-[0.8125rem] w-auto"
+        priority={priority}
+        sizes="110px"
+      />
+    </span>
+  )
 }

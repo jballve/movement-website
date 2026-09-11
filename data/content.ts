@@ -1,210 +1,406 @@
+/**
+ * Single source of truth for site copy and structured content.
+ * Components render this data; they do not hold copy of their own.
+ */
+
 export const siteConfig = {
   name: 'Movement',
-  tagline: 'Precision Capital. Synchronized Growth.',
-  description: 'A specialized investment firm providing flexible capital and operational calibration across North America and Asia Pacific.',
+  tagline: 'Investing Through Time',
+  description:
+    'Movement is a special situations investment firm with hubs in Toronto and Singapore, partnering with companies and lenders across North America and Asia Pacific through recapitalizations, carve-outs, consolidations and ownership transitions.',
+  shortDescription:
+    'A flexible capital and operating partner for businesses in transition, with hubs in Toronto and Singapore.',
 }
 
-export const navigation = [
-  { name: 'Who We Are', href: '#who-we-are' },
-  { name: 'Our Team', href: '#team' },
-  { name: 'What We Do', href: '#what-we-do' },
-  { name: 'Contact', href: '#contact' },
+export type NavItem = { name: string; href: string }
+
+export const navigation: NavItem[] = [
+  { name: 'The firm', href: '/#who-we-are' },
+  { name: 'Approach', href: '/#what-we-do' },
+  { name: 'Team', href: '/#team' },
+  { name: 'Contact', href: '/#contact' },
 ]
 
-export const whoWeAre = {
-  headline: 'Who We Are',
-  accent: 'Calibrated. Synchronized. Purposeful.',
-  paragraphs: [
-    'Movement is a flexible capital and business calibration firm with strategic hubs in Toronto and Singapore. We partner with companies and lenders to navigate complexity—providing patient capital, strategic guidance, and operational expertise through periods of transition and growth.',
-    'We specialize in situations that demand both conviction and nuance. We recapitalize balance sheets, consolidate fragmented industries, and work alongside management teams to build durable businesses. Where others see disorder, we see the opportunity for calibration.',
-    'Backed by a global family office with generational time horizons, our approach is built on duration and discipline. Unconstrained by traditional fund mandates, we focus on the long-term mechanics of value creation rather than short-term liquidity events.',
+export const hero = {
+  eyebrow: 'Investing Through Time',
+  /** The emphasised phrase is rendered in the Cormorant italic. */
+  headline: 'Flexible capital for businesses at a',
+  headlineEmphasis: 'turning point.',
+  lead:
+    'Movement partners with owners, management teams and lenders across North America and Asia Pacific, combining patient capital with hands-on operational support through recapitalizations, carve-outs, consolidations and ownership transitions.',
+  primaryCta: { label: 'Discuss a situation', href: '#contact' },
+  secondaryCta: { label: 'Our approach', href: '#what-we-do' },
+  backingNote: 'Backed by a global family office',
+  mediaCaption: 'A mechanical watch movement: small, precise parts working in concert over time.',
+  mediaAlt: 'Close-up of the gears and jewelled bearing inside a mechanical watch movement',
+}
+
+export type Criterion = { label: string; value: string }
+
+export const criteria: { eyebrow: string; note: string; items: Criterion[] } = {
+  eyebrow: 'Investment criteria',
+  note: 'Where our capital and experience fit.',
+  items: [
+    { label: 'Focus', value: 'Special situations' },
+    { label: 'Equity check', value: '$5M – $50M' },
+    { label: 'Enterprise value', value: '$20M – $150M' },
+    { label: 'Position', value: 'Control or significant minority' },
+    { label: 'Geography', value: 'North America & Asia Pacific' },
   ],
+}
+
+export const firm = {
+  eyebrow: 'The firm',
+  headline: 'A flexible capital and operating partner, built for complexity.',
+  paragraphs: [
+    'Movement is a flexible capital and business calibration firm with hubs in Toronto and Singapore. We partner with companies and lenders to navigate complexity, providing patient capital, strategic guidance and operational expertise through periods of transition and growth.',
+    'We specialize in situations that demand both conviction and nuance: recapitalizing balance sheets, consolidating fragmented industries, and working alongside management teams to build durable businesses. Where others see disorder, we see the opportunity for calibration.',
+  ],
+  howWeWorkEyebrow: 'How we work',
   differentiators: [
     {
-      title: 'Flexible Capital',
-      description: 'Tailored capital solutions for balance sheet resets and pivotal transitions',
+      title: 'Flexible capital',
+      description: 'Tailored capital solutions for balance sheet resets and pivotal transitions.',
     },
     {
       title: 'Toronto & Singapore',
-      description: 'Dual-timezone presence enabling seamless cross-border execution',
+      description: 'A dual-time-zone presence enabling seamless cross-border execution.',
     },
     {
-      title: 'Execution Certainty',
-      description: 'Decisive action with institutional reliability and risk mitigation',
+      title: 'Execution certainty',
+      description: 'Decisive action with institutional reliability and disciplined risk mitigation.',
     },
     {
-      title: 'Operational Calibration',
-      description: 'Hands-on P&L re-engineering and management evolution',
+      title: 'Operational calibration',
+      description: 'Hands-on P&L re-engineering and management evolution.',
     },
   ],
+}
+
+export const backing = {
+  eyebrow: 'Our backing',
+  statement:
+    'Backed by a global family office with generational time horizons, we are unconstrained by traditional fund mandates, free to focus on the long-term mechanics of value creation rather than short-term liquidity events.',
+  supporting: 'Our approach is built on duration and discipline.',
+}
+
+export type Strategy = { title: string; subtitle: string; description: string }
+
+export const strategies: { eyebrow: string; headline: string; lead: string; items: Strategy[] } = {
+  eyebrow: 'Approach',
+  headline: 'Investment strategies',
+  lead:
+    'Five ways we deploy flexible capital and operational expertise across the full spectrum of business transitions.',
+  items: [
+    {
+      title: 'Strategic recapitalization',
+      subtitle: 'Flexible capital solutions',
+      description:
+        'Flexible capital for balance sheet resets, buyouts and pivotal transitions. We provide tailored financing structures that restore operational flexibility and position companies for sustainable growth.',
+    },
+    {
+      title: 'Industrial roll-ups',
+      subtitle: 'Market consolidation',
+      description:
+        'Consolidating fragmented sectors to build market-leading platforms. We identify synergies, integrate operations and create scale advantages that drive long-term value.',
+    },
+    {
+      title: 'Lender solutions',
+      subtitle: 'Institutional partnership',
+      description:
+        'Partnering with financial institutions to provide decisive capital and management solutions for complex or stressed loan files, with execution certainty and risk mitigation for lender portfolios.',
+    },
+    {
+      title: 'Operational calibration',
+      subtitle: 'Performance engineering',
+      description:
+        'Management evolution and P&L re-engineering: installing leadership and systems to drive performance. We calibrate operations to improve margins and free cash flow generation.',
+    },
+    {
+      title: 'Complex carve-outs',
+      subtitle: 'Strategic decoupling',
+      description:
+        'Decoupling non-core assets from parent organizations and establishing them as high-performing standalone entities. We unlock trapped value through strategic separation and focused management.',
+    },
+  ],
+}
+
+export const sectors = {
+  eyebrow: 'Sector experience',
+  items: [
+    'Renewable energy',
+    'Bio-fertilizer',
+    'E-commerce',
+    'Retail',
+    'Tourism & leisure',
+    'Media & entertainment',
+    'Manufacturing',
+    'Aerospace & defense',
+    'Commodities',
+    'Distribution',
+    'Education',
+  ],
+}
+
+export type BioSection = { heading: string; items: string[] }
+
+export type TeamMember = {
+  slug: string
+  name: string
+  title: string
+  /** One-sentence description used for cards, metadata and structured data. */
+  summary: string
+  image: string
+  linkedin?: string
+  bio: BioSection[]
 }
 
 export const teamSection = {
-  headline: 'Our Team',
-  accent: 'Senior team with +20 years of investing experience',
-  description: 'Our investment professionals bring decades of combined experience in special situations, turnarounds, and value creation across multiple cycles.',
+  eyebrow: 'Our team',
+  headline: 'Investment professionals across two hubs.',
+  lead:
+    'Combined decades of experience in special situations, M&A and operating roles across North America and Asia Pacific.',
+  careersEyebrow: 'Careers',
+  careersText:
+    'We are always interested in meeting exceptional people who want to build durable businesses. Write to us at',
 }
 
-export const team = [
+export const team: TeamMember[] = [
   {
-    id: 1,
+    slug: 'javier-ballve',
     name: 'Javier Ballve',
     title: 'Partner',
-    bio: 'Professional Summary:\n- Javier has over a decade of experience across investment banking, commercial banking, leveraged finance, and entrepreneurship.\n\nPrior Experience:\n- He previously held key roles at Jefferies International Ltd. and TD Bank.\n- Focusing on transaction execution and capital structuring for mid-market and institutional clients.\n\nEntrepreneurship:\n- Javier is the founder of Hustle, a fitness and education platform in Vietnam, where he currently serves as Executive Chairman.\n\nEducation:\n- Holds a Joint Honors degree in Business Administration and Economics from St. Francis Xavier University.',
-    image: '/images/team/partner-1.png?v=fix',
+    summary:
+      'Partner with more than a decade of experience across investment banking, leveraged finance and entrepreneurship.',
+    image: '/images/team/javier-ballve.jpg',
     linkedin: 'https://www.linkedin.com/in/javierballve/',
+    bio: [
+      {
+        heading: 'Professional summary',
+        items: [
+          'Over a decade of experience across investment banking, commercial banking, leveraged finance and entrepreneurship.',
+        ],
+      },
+      {
+        heading: 'Prior experience',
+        items: [
+          'Held roles at Jefferies International Ltd. and TD Bank, focused on transaction execution and capital structuring for mid-market and institutional clients.',
+        ],
+      },
+      {
+        heading: 'Entrepreneurship',
+        items: [
+          'Founder of Hustle, a fitness and education platform in Vietnam, where he serves as Executive Chairman.',
+        ],
+      },
+      {
+        heading: 'Education',
+        items: [
+          'Joint Honours degree in Business Administration and Economics, St. Francis Xavier University.',
+        ],
+      },
+    ],
   },
   {
-    id: 2,
+    slug: 'gregory-gruschka',
     name: 'Gregory Gruschka',
     title: 'Partner',
-    bio: 'Professional Summary:\n- 4 years of experience specializing in corporate finance, private equity, and operational strategy.\n\nFocus Area:\n- Expertise in mid-market deal origination and streamlining portfolio operations to drive value creation.\n\nEducation:\n- Earned a degree in Business Administration from the University of British Columbia.',
-    image: '/images/team/partner-2.JPG?v=new',
+    summary: 'Partner focused on mid-market deal origination and portfolio operations.',
+    image: '/images/team/gregory-gruschka.jpg',
     linkedin: 'https://www.linkedin.com/in/gregory-gruschka-burda/',
+    bio: [
+      {
+        heading: 'Professional summary',
+        items: ['Four years of experience in corporate finance, private equity and operational strategy.'],
+      },
+      {
+        heading: 'Focus',
+        items: ['Mid-market deal origination and streamlining portfolio operations to drive value creation.'],
+      },
+      {
+        heading: 'Education',
+        items: ['Degree in Business Administration, University of British Columbia.'],
+      },
+    ],
   },
   {
-    id: 3,
+    slug: 'jerry-tan',
     name: 'Jerry Tan',
     title: 'Director',
-    bio: 'Professional Summary:\n- Over 15 years of experience as a private equity investor, operator, and advisor.\n- Successfully completed over $1.2 billion in M&A and IPO transactions across Southeast Asia and Greater China.\n\nPrior Experience:\n- Previously Director of M&A Advisory at RSM.\n- Formerly Vice President of Private Equity at Novo Tellus Capital Partners ($1B AUM).\n- Former Deputy Director at Enterprise Singapore, spearheading the Scale-up SG program.\n\nEducation:\n- Earned a Bachelor of Business Management in Finance (Summa Cum Laude) from Singapore Management University.\n- Alumnus of the Stanford Scale-up Executive Programme.\n- Licensed Representative (Fund Management) under the Monetary Authority of Singapore.',
-    image: '/images/team/partner-3.png',
+    summary:
+      'Director with over 15 years as a private equity investor, operator and advisor across Southeast Asia and Greater China.',
+    image: '/images/team/jerry-tan.jpg',
     linkedin: 'https://www.linkedin.com/in/contactjerry/',
+    bio: [
+      {
+        heading: 'Professional summary',
+        items: [
+          'Over 15 years of experience as a private equity investor, operator and advisor.',
+          'Completed more than $1.2 billion in M&A and IPO transactions across Southeast Asia and Greater China.',
+        ],
+      },
+      {
+        heading: 'Prior experience',
+        items: [
+          'Director of M&A Advisory at RSM.',
+          'Vice President, Private Equity at Novo Tellus Capital Partners ($1B AUM).',
+          'Deputy Director at Enterprise Singapore, where he led the Scale-up SG program.',
+        ],
+      },
+      {
+        heading: 'Education and credentials',
+        items: [
+          'Bachelor of Business Management in Finance (Summa Cum Laude), Singapore Management University.',
+          'Alumnus of the Stanford Scale-up Executive Programme.',
+          'Licensed Representative (Fund Management) under the Monetary Authority of Singapore.',
+        ],
+      },
+    ],
   },
   {
-    id: 4,
+    slug: 'seth-chong',
     name: 'Seth Chong',
     title: 'Associate',
-    bio: 'Professional Summary:\n- Experience spanning corporate development, M&A advisory, and financial due diligence across Southeast Asia and broader APAC markets.\n- Track record in deal origination, execution, and investment committee preparation for transactions including buyouts, minority stakes, and joint ventures.\n\nPrior Experience:\n- Previously in Investment and Portfolio Development at Abdul Latif Jameel (ALJ), a globally diversified family enterprise recognized as a 2024 Forbes Middle East Top Arab Family Business.\n- Formerly Deals and Strategy (M&A) Associate at Deloitte SEA Financial Advisory, executing end-to-end M&A and corporate finance engagements across Singapore, Vietnam, and Bangladesh.\n- Started career in Financial Services Assurance at Ernst & Young, auditing Global Banking and Capital Markets clients.\n\nEducation:\n- Earned a Bachelor of Accountancy (Honors with Distinction) from the Singapore Institute of Technology.\n- Recipient of the EY Outstanding Student Award.\n- Financial Modeling & Valuation Analyst (FMVA) certification from the Corporate Finance Institute.',
-    image: '/images/team/partner-5.jpg?v=2',
+    summary:
+      'Associate with experience in corporate development, M&A advisory and financial due diligence across Southeast Asia.',
+    image: '/images/team/seth-chong.jpg',
     linkedin: 'https://www.linkedin.com/in/sze-siang-chong/',
+    bio: [
+      {
+        heading: 'Professional summary',
+        items: [
+          'Experience spanning corporate development, M&A advisory and financial due diligence across Southeast Asia and the wider Asia Pacific region.',
+          'Track record in deal origination, execution and investment committee preparation for buyouts, minority stakes and joint ventures.',
+        ],
+      },
+      {
+        heading: 'Prior experience',
+        items: [
+          'Investment and Portfolio Development at Abdul Latif Jameel (ALJ), a globally diversified family enterprise recognized as a 2024 Forbes Middle East Top Arab Family Business.',
+          'Deals and Strategy (M&A) Associate at Deloitte SEA Financial Advisory, executing end-to-end M&A and corporate finance engagements across Singapore, Vietnam and Bangladesh.',
+          'Began his career in Financial Services Assurance at Ernst & Young, auditing Global Banking and Capital Markets clients.',
+        ],
+      },
+      {
+        heading: 'Education and credentials',
+        items: [
+          'Bachelor of Accountancy (Honours with Distinction), Singapore Institute of Technology.',
+          'Recipient of the EY Outstanding Student Award.',
+          'Financial Modeling & Valuation Analyst (FMVA), Corporate Finance Institute.',
+        ],
+      },
+    ],
   },
   {
-    id: 5,
+    slug: 'matthias-lee',
     name: 'Matthias Lee',
     title: 'Associate',
-    bio: 'Professional Summary:\n- Over four years of experience as an M&A advisor across Southeast Asia and Australia, spanning the consumer, logistics, industrials, and technology sectors.\n- Executed buy-side and sell-side transactions, including cross-border acquisitions in Southeast Asia, Australia, and Mongolia.\n- Experience across the full transaction lifecycle, from valuation and operating modelling through multi-stream due diligence to signing and closing.\n\nPrior Experience:\n- Previously M&A Associate at Pickering Pacific, an M&A advisory firm focused on cross-border mid-market transactions in Asia Pacific.\n- Formerly an intern at ING Bank, Titan Capital, and Koninklijke Philips.\n\nEducation:\n- Earned a Bachelor of Business Management in Finance from Singapore Management University.',
-    image: '/images/team/matthias-lee.png',
+    summary: 'Associate with over four years of cross-border M&A advisory experience across Asia Pacific.',
+    image: '/images/team/matthias-lee.jpg',
+    bio: [
+      {
+        heading: 'Professional summary',
+        items: [
+          'Over four years of experience as an M&A advisor across Southeast Asia and Australia, spanning the consumer, logistics, industrials and technology sectors.',
+          'Executed buy-side and sell-side transactions, including cross-border acquisitions in Southeast Asia, Australia and Mongolia.',
+          'Experience across the full transaction lifecycle, from valuation and operating modelling through multi-stream due diligence to signing and closing.',
+        ],
+      },
+      {
+        heading: 'Prior experience',
+        items: [
+          'M&A Associate at Pickering Pacific, an advisory firm focused on cross-border mid-market transactions in Asia Pacific.',
+          'Internships at ING Bank, Titan Capital and Koninklijke Philips.',
+        ],
+      },
+      {
+        heading: 'Education',
+        items: ['Bachelor of Business Management in Finance, Singapore Management University.'],
+      },
+    ],
   },
 ]
 
-export const whatWeDo = {
-  headline: 'Investment Strategies',
-  accent: 'Precision Engineering for Complex Situations',
-  description: 'Our five-pillar approach delivers flexible capital and operational calibration across the full spectrum of business transitions.',
-  pillars: [
+export function getTeamMember(slug: string): TeamMember | undefined {
+  return team.find((m) => m.slug === slug)
+}
+
+export type Office = {
+  id: string
+  city: string
+  region: string
+  role: string
+  email: string
+  timeZone: string
+}
+
+export const offices: Office[] = [
+  {
+    id: 'toronto',
+    city: 'Toronto',
+    region: 'North America',
+    role: 'North American headquarters',
+    email: 'toronto@invest-movement.com',
+    timeZone: 'America/Toronto',
+  },
+  {
+    id: 'singapore',
+    city: 'Singapore',
+    region: 'Asia Pacific',
+    role: 'Asia Pacific hub',
+    email: 'singapore@invest-movement.com',
+    timeZone: 'Asia/Singapore',
+  },
+]
+
+export const contact = {
+  eyebrow: 'Contact',
+  headline: 'Start a conversation.',
+  lead:
+    "Whether you are an owner considering a transition, a lender with a complex file, or an advisor with a situation that fits our mandate, we would like to hear from you.",
+  officesEyebrow: 'Offices',
+  processEyebrow: 'Working with Movement',
+  process: [
     {
-      title: 'Strategic Recapitalization',
-      subtitle: 'Flexible Capital Solutions',
-      description: 'Flexible capital for balance sheet resets, buyouts, and pivotal transitions. We provide tailored financing structures that restore operational flexibility and position companies for sustainable growth.',
-      icon: 'Banknote',
+      title: 'Introduction',
+      description: 'A short conversation to understand the business, the situation and what you need.',
     },
     {
-      title: 'Industrial Rollups',
-      subtitle: 'Market Consolidation',
-      description: 'Consolidating fragmented sectors with surgical precision to build market-leading platforms. We identify synergies, integrate operations, and create scale advantages that drive long-term value.',
-      icon: 'Layers',
+      title: 'Assessment',
+      description: 'We review the opportunity in confidence and give you a clear, direct view on fit.',
     },
     {
-      title: 'Lender Solutions',
-      subtitle: 'Institutional Partnership',
-      description: 'Partnering with financial institutions to provide decisive capital and management solutions for complex or stressed loan files. Execution certainty and risk mitigation for lender portfolios.',
-      icon: 'Building2',
-    },
-    {
-      title: 'Operational Calibration',
-      subtitle: 'Performance Engineering',
-      description: 'Management evolution and P&L re-engineering—installing leadership and systems to drive performance. We calibrate operations to optimize margin improvement and free cash flow generation.',
-      icon: 'Settings',
-    },
-    {
-      title: 'Complex Carve-Outs',
-      subtitle: 'Strategic Decoupling',
-      description: 'Decoupling non-core assets from parent organizations and establishing them as high-performing standalone entities. We unlock trapped value through strategic separation and focused management.',
-      icon: 'Scissors',
+      title: 'Proposal',
+      description: 'Where there is a fit, we move quickly to a structured proposal with clear terms and timing.',
     },
   ],
-    criteria: {
-    headline: 'Investment Parameters',
-    items: [
-      { label: 'Equity Check', value: '$5M – $50M' },
-      { label: 'Enterprise Value', value: '$20M – $150M' },
-      { label: 'Focus', value: 'Special Situations' },
-      { label: 'Geography', value: 'North America & APAC' },
-      { label: 'Position', value: 'Control or Significant Minority' },
+  form: {
+    eyebrow: 'Send a message',
+    inquiryTypes: [
+      { value: 'owner', label: 'A business owner or management team' },
+      { value: 'lender', label: 'A lender or financial institution' },
+      { value: 'advisor', label: 'An advisor or intermediary' },
+      { value: 'careers', label: 'Exploring a career at Movement' },
+      { value: 'other', label: 'Other' },
     ],
-    sectors: ['Renewable Energy', 'Bio-Fertilizer', 'E-Commerce', 'Retail', 'Tourism & Leisure', 'Media & Entertainment', 'Manufacturing', 'Aerospace & Defense', 'Commodities', 'Distribution', 'Education'],
+    submitLabel: 'Send message',
+    successTitle: 'Thank you.',
+    successBody: 'Your message has been received and a member of our team will be in touch.',
+    errorBody: 'Something went wrong and your message was not sent. Please try again, or email us directly at',
   },
 }
-
-export const portfolioSection = {
-  headline: 'Our Portfolio',
-  accent: 'Partners in Progress',
-  description: 'We partner with exceptional management teams to build lasting value through operational transformation.',
-}
-
-export const portfolio = [
-  {
-    id: 1,
-    name: 'Precision Manufacturing Co.',
-    sector: 'Industrial Manufacturing',
-    description: 'Leading precision components manufacturer',
-    logo: '/images/portfolio/company-1.svg',
-  },
-  {
-    id: 2,
-    name: 'Northern Services Group',
-    sector: 'Business Services',
-    description: 'B2B services platform serving SMEs',
-    logo: '/images/portfolio/company-2.svg',
-  },
-  {
-    id: 3,
-    name: 'HealthTech Solutions',
-    sector: 'Healthcare Technology',
-    description: 'Healthcare workflow optimization platform',
-    logo: '/images/portfolio/company-3.svg',
-  },
-  {
-    id: 4,
-    name: 'Consumer Brands Inc.',
-    sector: 'Consumer Products',
-    description: 'Premium consumer products company',
-    logo: '/images/portfolio/company-4.svg',
-  },
-]
-
-export const contactSection = {
-  headline: 'Get in Touch',
-  accent: "Let's Start a Conversation",
-  description: "Whether you're exploring a partnership opportunity or have a business in transition, we'd like to hear from you.",
-}
-
-export const careersCard = {
-  headline: 'Join Our Team',
-  description: 'Seeking exceptional talent to drive value creation across special situations.',
-  email: 'contact@invest-movement.com',
-}
-
-export const offices = [
-  {
-    city: 'Toronto',
-    label: 'North America',
-    coordinates: { lat: 43.6532, lng: -79.3832 },
-  },
-  {
-    city: 'Singapore',
-    label: 'Asia Pacific',
-    coordinates: { lat: 1.3521, lng: 103.8198 },
-  },
-]
 
 export const footer = {
-  copyright: `© ${new Date().getFullYear()} Movement. All rights reserved.`,
+  description: siteConfig.shortDescription,
+  disclaimer:
+    'This website is for informational purposes only and does not constitute an offer to sell or a solicitation of an offer to buy any security.',
   links: [
     { name: 'Privacy Policy', href: '/privacy' },
     { name: 'Terms of Use', href: '/terms' },
   ],
-  social: [
-    { name: 'LinkedIn', href: 'https://linkedin.com', icon: 'Linkedin' },
-  ],
+}
+
+export const legal = {
+  /** Explicit revision date for the legal pages. Update when the policy text changes. */
+  lastUpdated: '2026-09-11',
 }

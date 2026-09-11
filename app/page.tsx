@@ -1,18 +1,20 @@
 import HeroSection from '@/components/sections/HeroSection'
-import WhoWeAreSection from '@/components/sections/WhoWeAreSection'
+import CriteriaSection from '@/components/sections/CriteriaSection'
+import FirmSection from '@/components/sections/FirmSection'
+import BackingSection from '@/components/sections/BackingSection'
+import StrategiesSection from '@/components/sections/StrategiesSection'
 import TeamSection from '@/components/sections/TeamSection'
-import WhatWeDoSection from '@/components/sections/WhatWeDoSection'
-import InvestmentParameters from '@/components/sections/InvestmentParameters'
 import ContactSection from '@/components/sections/ContactSection'
 
 export default function Home() {
   return (
     <>
       <HeroSection />
-      <WhoWeAreSection />
+      <CriteriaSection />
+      <FirmSection />
+      <BackingSection />
+      <StrategiesSection />
       <TeamSection />
-      <WhatWeDoSection />
-      <InvestmentParameters />
       <ContactSection />
     </>
   )

@@ -23,8 +23,8 @@ Connect to your server via SSH and install Node.js, Nginx, and Git:
 # Update packages
 sudo apt update && sudo apt upgrade -y
 
-# Install Node.js (Version 18 or 20)
-curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+# Install Node.js 20 or later (Vercel builds with Node 24)
+curl -fsSL https://deb.nodesource.com/setup_24.x | sudo -E bash -
 sudo apt install -y nodejs
 
 # Install Nginx and PM2 (Process Manager)
