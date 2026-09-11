@@ -7,9 +7,9 @@ export const siteConfig = {
   name: 'Movement',
   tagline: 'Investing Through Time',
   description:
-    'Movement is a special situations investment firm with hubs in Toronto and Singapore, partnering with companies and lenders across North America and Asia Pacific through recapitalizations, carve-outs, consolidations and ownership transitions.',
+    'Movement is a private capital firm with hubs in Toronto and Singapore, partnering with owners and management teams across North America and Asia Pacific through ownership transitions, control buyouts, consolidations and carve-outs.',
   shortDescription:
-    'A flexible capital and operating partner for businesses in transition, with hubs in Toronto and Singapore.',
+    'Private capital for ownership transitions in established, owner-operated businesses, with hubs in Toronto and Singapore.',
 }
 
 export type NavItem = { name: string; href: string }
@@ -27,7 +27,7 @@ export const hero = {
   headline: 'Flexible capital for businesses at a',
   headlineEmphasis: 'turning point.',
   lead:
-    'Movement partners with owners, management teams and lenders across North America and Asia Pacific, combining patient capital with hands-on operational support through recapitalizations, carve-outs, consolidations and ownership transitions.',
+    'Movement invests in profitable, owner-operated businesses across North America and Asia Pacific, taking control alongside owners who are stepping back, rolling equity, or staying on to run what they built. We bring patient capital and hands-on operational support to the years that follow.',
   primaryCta: { label: 'Discuss a situation', href: '#contact' },
   secondaryCta: { label: 'Our approach', href: '#what-we-do' },
   backingNote: 'Backed by a global family office',
@@ -41,9 +41,9 @@ export const criteria: { eyebrow: string; note: string; items: Criterion[] } = {
   eyebrow: 'Investment criteria',
   note: 'Where our capital and experience fit.',
   items: [
-    { label: 'Focus', value: 'Special situations' },
-    { label: 'Equity check', value: '$5M – $50M' },
-    { label: 'Enterprise value', value: '$20M – $150M' },
+    { label: 'Focus', value: 'Ownership transitions and control buyouts' },
+    { label: 'Equity check', value: '$8M – $25M' },
+    { label: 'Enterprise value', value: '$20M – $60M' },
     { label: 'Position', value: 'Control or significant minority' },
     { label: 'Geography', value: 'North America & Asia Pacific' },
   ],
@@ -51,16 +51,16 @@ export const criteria: { eyebrow: string; note: string; items: Criterion[] } = {
 
 export const firm = {
   eyebrow: 'The firm',
-  headline: 'A flexible capital and operating partner, built for complexity.',
+  headline: 'A flexible capital and operating partner, built to stay.',
   paragraphs: [
-    'Movement is a flexible capital and business calibration firm with hubs in Toronto and Singapore. We partner with companies and lenders to navigate complexity, providing patient capital, strategic guidance and operational expertise through periods of transition and growth.',
-    'We specialize in situations that demand both conviction and nuance: recapitalizing balance sheets, consolidating fragmented industries, and working alongside management teams to build durable businesses. Where others see disorder, we see the opportunity for calibration.',
+    'Movement is a private capital and business calibration firm with hubs in Toronto and Singapore. We partner with owners and management teams through ownership change, providing patient capital, strategic guidance and operational expertise for the growth that follows.',
+    'The businesses we back are established, profitable and closely held. The decision in front of the owner is about ownership, not performance, so we structure around what that owner wants, then work alongside management to consolidate, professionalize and compound value over years rather than quarters.',
   ],
   howWeWorkEyebrow: 'How we work',
   differentiators: [
     {
       title: 'Flexible capital',
-      description: 'Tailored capital solutions for balance sheet resets and pivotal transitions.',
+      description: 'Tailored capital solutions for ownership transitions, succession and growth.',
     },
     {
       title: 'Toronto & Singapore',
@@ -90,31 +90,31 @@ export const strategies: { eyebrow: string; headline: string; lead: string; item
   eyebrow: 'Approach',
   headline: 'Investment strategies',
   lead:
-    'Five ways we deploy flexible capital and operational expertise across the full spectrum of business transitions.',
+    'Five ways we deploy flexible capital and operational expertise across ownership change and the growth that follows.',
   items: [
     {
-      title: 'Strategic recapitalization',
-      subtitle: 'Flexible capital solutions',
+      title: 'Owner succession',
+      subtitle: 'Ownership transitions',
       description:
-        'Flexible capital for balance sheet resets, buyouts and pivotal transitions. We provide tailored financing structures that restore operational flexibility and position companies for sustainable growth.',
+        "Buying control of profitable, founder-owned businesses where the owner is stepping back, staying on, or rolling equity into the next chapter. We structure around what the owner wants, not around a fund's exit clock.",
     },
     {
-      title: 'Industrial roll-ups',
+      title: 'Platform roll-ups',
       subtitle: 'Market consolidation',
       description:
         'Consolidating fragmented sectors to build market-leading platforms. We identify synergies, integrate operations and create scale advantages that drive long-term value.',
-    },
-    {
-      title: 'Lender solutions',
-      subtitle: 'Institutional partnership',
-      description:
-        'Partnering with financial institutions to provide decisive capital and management solutions for complex or stressed loan files, with execution certainty and risk mitigation for lender portfolios.',
     },
     {
       title: 'Operational calibration',
       subtitle: 'Performance engineering',
       description:
         'Management evolution and P&L re-engineering: installing leadership and systems to drive performance. We calibrate operations to improve margins and free cash flow generation.',
+    },
+    {
+      title: 'Strategic recapitalization',
+      subtitle: 'Flexible capital solutions',
+      description:
+        'Flexible capital for growth, shareholder liquidity and pivotal transitions. We provide tailored financing structures that give owners options without forcing a full sale, and position the business for its next stage.',
     },
     {
       title: 'Complex carve-outs',
@@ -128,17 +128,13 @@ export const strategies: { eyebrow: string; headline: string; lead: string; item
 export const sectors = {
   eyebrow: 'Sector experience',
   items: [
-    'Renewable energy',
-    'Bio-fertilizer',
-    'E-commerce',
-    'Retail',
-    'Tourism & leisure',
     'Media & entertainment',
-    'Manufacturing',
-    'Aerospace & defense',
-    'Commodities',
+    'Business services',
+    'Consumer services',
+    'Education & training',
+    'Healthcare services',
     'Distribution',
-    'Education',
+    'Manufacturing',
   ],
 }
 
@@ -159,7 +155,7 @@ export const teamSection = {
   eyebrow: 'Our team',
   headline: 'Investment professionals across two hubs.',
   lead:
-    'Combined decades of experience in special situations, M&A and operating roles across North America and Asia Pacific.',
+    'Combined decades of experience in ownership transitions, M&A and operating roles across North America and Asia Pacific.',
   careersEyebrow: 'Careers',
   careersText:
     'We are always interested in meeting exceptional people who want to build durable businesses. Write to us at',
@@ -357,7 +353,7 @@ export const contact = {
   eyebrow: 'Contact',
   headline: 'Start a conversation.',
   lead:
-    "Whether you are an owner considering a transition, a lender with a complex file, or an advisor with a situation that fits our mandate, we would like to hear from you.",
+    'Whether you are an owner considering a transition, a management team planning the next stage, or an advisor with a situation that fits our mandate, we would like to hear from you.',
   officesEyebrow: 'Offices',
   processEyebrow: 'Working with Movement',
   process: [

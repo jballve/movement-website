@@ -1,6 +1,6 @@
 # Movement website
 
-Public website for Movement, a special situations investment firm with hubs in Toronto and Singapore.
+Public website for Movement, a private capital firm with hubs in Toronto and Singapore.
 Live at [www.invest-movement.com](https://www.invest-movement.com).
 
 ## Stack
