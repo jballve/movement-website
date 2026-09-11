@@ -29,22 +29,25 @@ export default function ContactForm() {
     const inquiry = String(data.get('inquiry') ?? '')
     const inquiryLabel = contact.form.inquiryTypes.find((t) => t.value === inquiry)?.label ?? inquiry
 
+    // Multipart body: a CORS "simple request" with no preflight, which the
+    // form provider handles more reliably than a JSON payload.
+    const payload = new FormData()
+    payload.set('access_key', web3formsAccessKey)
+    payload.set('subject', `[Movement] Website inquiry — ${inquiryLabel}`)
+    payload.set('from_name', 'Movement website')
+    payload.set('name', String(data.get('name') ?? ''))
+    payload.set('email', String(data.get('email') ?? ''))
+    payload.set('replyto', String(data.get('email') ?? ''))
+    payload.set('company', String(data.get('company') || '—'))
+    payload.set('inquiry', inquiryLabel)
+    payload.set('message', String(data.get('message') ?? ''))
+
     try {
       const response = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        headers: { Accept: 'application/json' },
         signal: controller.signal,
-        body: JSON.stringify({
-          access_key: web3formsAccessKey,
-          subject: `[Movement] Website inquiry — ${inquiryLabel}`,
-          from_name: 'Movement website',
-          name: data.get('name'),
-          email: data.get('email'),
-          replyto: data.get('email'),
-          company: data.get('company') || '—',
-          inquiry: inquiryLabel,
-          message: data.get('message'),
-        }),
+        body: payload,
       })
       const result = (await response.json()) as { success?: boolean }
       if (response.ok && result.success) {
