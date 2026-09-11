@@ -47,3 +47,14 @@ export function useNowSeconds(everyMinute = false): number | null {
     () => null
   )
 }
+
+const subscribePageLoad = (onLoad: () => void) => {
+  if (document.readyState === 'complete') return () => {}
+  window.addEventListener('load', onLoad, { once: true })
+  return () => window.removeEventListener('load', onLoad)
+}
+
+/** True once the page has finished loading, so deferred media never competes with LCP. */
+export function usePageLoaded(): boolean {
+  return useSyncExternalStore(subscribePageLoad, () => document.readyState === 'complete', () => false)
+}

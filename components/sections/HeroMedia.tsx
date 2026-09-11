@@ -3,22 +3,29 @@
 import { useEffect, useRef } from 'react'
 import Image from 'next/image'
 import { hero } from '@/data/content'
-import { useMediaQuery, useSaveData } from '@/lib/hooks'
+import { useMediaQuery, usePageLoaded, useSaveData } from '@/lib/hooks'
 
 const POSTER = '/images/hero/movement-poster.jpg'
-const VIDEO = '/videos/movement-720.mp4'
+const VIDEO_WIDE = '/videos/movement-720.mp4'
+const VIDEO_NARROW = '/videos/movement-mobile.mp4'
 
 /**
- * Poster-first hero image. The looping video is only attached on wide screens
- * when the visitor has not asked for reduced motion or reduced data, and it is
- * paused whenever it leaves the viewport or the tab is hidden.
+ * Poster-first hero media. The poster image is the only thing that loads with
+ * the page; the looping video is attached after the load event so it never
+ * competes with the largest contentful paint, and is skipped entirely when the
+ * visitor asks for reduced motion or reduced data. Phones and tablets get a
+ * lighter encode. Playback pauses whenever the video leaves the viewport or the
+ * tab is hidden.
  */
 export default function HeroMedia() {
   const videoRef = useRef<HTMLVideoElement>(null)
   const wide = useMediaQuery('(min-width: 1024px)')
   const motionOk = useMediaQuery('(prefers-reduced-motion: no-preference)')
   const saveData = useSaveData()
-  const withVideo = wide && motionOk && !saveData
+  const loaded = usePageLoaded()
+
+  const withVideo = loaded && motionOk && !saveData
+  const src = wide ? VIDEO_WIDE : VIDEO_NARROW
 
   useEffect(() => {
     const video = videoRef.current
@@ -36,7 +43,7 @@ export default function HeroMedia() {
       io.disconnect()
       document.removeEventListener('visibilitychange', onVisibility)
     }
-  }, [withVideo])
+  }, [withVideo, src])
 
   return (
     <figure>
@@ -52,6 +59,7 @@ export default function HeroMedia() {
         />
         {withVideo && (
           <video
+            key={src}
             ref={videoRef}
             className="media-warm absolute inset-0 h-full w-full object-cover object-[55%_50%]"
             autoPlay
@@ -59,11 +67,10 @@ export default function HeroMedia() {
             loop
             playsInline
             preload="none"
-            poster={POSTER}
             aria-hidden
             tabIndex={-1}
           >
-            <source src={VIDEO} type="video/mp4" />
+            <source src={src} type="video/mp4" />
           </video>
         )}
       </div>
