@@ -78,6 +78,13 @@ export const team = [
     image: '/images/team/partner-5.jpg?v=2',
     linkedin: 'https://www.linkedin.com/in/sze-siang-chong/',
   },
+  {
+    id: 5,
+    name: 'Matthias Lee',
+    title: 'Associate',
+    bio: 'Professional Summary:\n- Over four years of experience as an M&A advisor across Southeast Asia and Australia, spanning the consumer, logistics, industrials, and technology sectors.\n- Executed buy-side and sell-side transactions, including cross-border acquisitions in Southeast Asia, Australia, and Mongolia.\n- Experience across the full transaction lifecycle, from valuation and operating modelling through multi-stream due diligence to signing and closing.\n\nPrior Experience:\n- Previously M&A Associate at Pickering Pacific, an M&A advisory firm focused on cross-border mid-market transactions in Asia Pacific.\n- Formerly an intern at ING Bank, Titan Capital, and Koninklijke Philips.\n\nEducation:\n- Earned a Bachelor of Business Management in Finance from Singapore Management University.',
+    image: '/images/team/matthias-lee.png',
+  },
 ]
 
 export const whatWeDo = {
