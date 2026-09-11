@@ -42,8 +42,8 @@ export const criteria: { eyebrow: string; note: string; items: Criterion[] } = {
   note: 'Where our capital and experience fit.',
   items: [
     { label: 'Focus', value: 'Ownership transitions and control buyouts' },
-    { label: 'Equity check', value: '$8M – $25M' },
-    { label: 'Enterprise value', value: '$20M – $60M' },
+    { label: 'Equity check', value: '$5M – $25M' },
+    { label: 'Enterprise value', value: '$10M – $100M' },
     { label: 'Position', value: 'Control or significant minority' },
     { label: 'Geography', value: 'North America & Asia Pacific' },
   ],
