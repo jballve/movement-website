@@ -50,9 +50,9 @@ export default function TeamSection() {
       <div className="container-x">
         <SectionHeading id="team-heading" eyebrow={teamSection.eyebrow} title={teamSection.headline} lead={teamSection.lead} />
 
-        <ul className="mt-14 grid gap-x-8 gap-y-14 sm:grid-cols-2 lg:mt-20 lg:grid-cols-3 lg:gap-x-10">
+        <ul className="mt-14 grid gap-x-8 gap-y-14 sm:grid-cols-2 lg:mt-20 lg:max-w-4xl lg:gap-x-10">
           {team.map((member, index) => (
-            <Reveal key={member.slug} as="li" delay={(index % 3) * 80}>
+            <Reveal key={member.slug} as="li" delay={(index % 2) * 80}>
               <TeamCard member={member} onOpen={setSelected} />
             </Reveal>
           ))}

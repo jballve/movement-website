@@ -17,7 +17,7 @@ export default function TeamIndexPage() {
         <h1 className="mt-5 max-w-3xl text-h2 font-normal text-ink">{teamSection.headline}</h1>
         <p className="mt-6 max-w-prose text-lead text-ink-muted">{teamSection.lead}</p>
 
-        <ul className="mt-16 grid gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-3 lg:gap-x-10">
+        <ul className="mt-16 grid gap-x-8 gap-y-14 sm:grid-cols-2 lg:max-w-4xl lg:gap-x-10">
           {team.map((member) => (
             <li key={member.slug}>
               <Link href={`/team/${member.slug}`} className="portrait group block">
