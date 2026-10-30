@@ -254,40 +254,6 @@ export const team: TeamMember[] = [
     ],
   },
   {
-    slug: 'seth-chong',
-    name: 'Seth Chong',
-    title: 'Associate',
-    summary:
-      'Associate with experience in corporate development, M&A advisory and financial due diligence across Southeast Asia.',
-    image: '/images/team/seth-chong.jpg',
-    linkedin: 'https://www.linkedin.com/in/sze-siang-chong/',
-    bio: [
-      {
-        heading: 'Professional summary',
-        items: [
-          'Experience spanning corporate development, M&A advisory and financial due diligence across Southeast Asia and the wider Asia Pacific region.',
-          'Track record in deal origination, execution and investment committee preparation for buyouts, minority stakes and joint ventures.',
-        ],
-      },
-      {
-        heading: 'Prior experience',
-        items: [
-          'Investment and Portfolio Development at Abdul Latif Jameel (ALJ), a globally diversified family enterprise recognized as a 2024 Forbes Middle East Top Arab Family Business.',
-          'Deals and Strategy (M&A) Associate at Deloitte SEA Financial Advisory, executing end-to-end M&A and corporate finance engagements across Singapore, Vietnam and Bangladesh.',
-          'Began his career in Financial Services Assurance at Ernst & Young, auditing Global Banking and Capital Markets clients.',
-        ],
-      },
-      {
-        heading: 'Education and credentials',
-        items: [
-          'Bachelor of Accountancy (Honours with Distinction), Singapore Institute of Technology.',
-          'Recipient of the EY Outstanding Student Award.',
-          'Financial Modeling & Valuation Analyst (FMVA), Corporate Finance Institute.',
-        ],
-      },
-    ],
-  },
-  {
     slug: 'matthias-lee',
     name: 'Matthias Lee',
     title: 'Associate',
